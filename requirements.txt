@@ -1,8 +1,7 @@
-coveralls==1.2
-peewee==3.7.1
-PyInstaller==3.6
-PyQt5==5.15.6
-rarfile==3.0
+peewee
+PyInstaller
+PyQt5
+rarfile
 qdarkgraystyle>=0.0.3
 pyqt-distutils
 sip
