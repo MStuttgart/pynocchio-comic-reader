@@ -57,7 +57,7 @@ class ThumbnailsDock(QtWidgets.QDockWidget):
             self.thumbs.append(w)
             self.ui.verticalLayout.addWidget(w)
             QtGui.QGuiApplication.processEvents()
-            
+
             if i == current:
                 self.highlight(i)
 

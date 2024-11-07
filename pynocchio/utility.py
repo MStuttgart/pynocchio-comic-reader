@@ -2,10 +2,9 @@ import os
 
 from PyQt5 import QtGui
 
-IMAGE_FILE_FORMATS = ['.' + str(ext, encoding='utf8') for ext in
-                      QtGui.QImageReader.supportedImageFormats()]
+IMAGE_FILE_FORMATS = ["." + str(ext, encoding="utf8") for ext in QtGui.QImageReader.supportedImageFormats()]
 
-COMPACT_FILE_FORMATS = ['.cbr', '.cbz', '.rar', '.zip', '.tar', '.cbt']
+COMPACT_FILE_FORMATS = [".cbr", ".cbz", ".rar", ".zip", ".tar", ".cbt"]
 
 SUPPORTED_FILES = IMAGE_FILE_FORMATS + COMPACT_FILE_FORMATS
 
@@ -47,9 +46,9 @@ def is_file(filename):
 
 
 def convert_string_to_boolean(string):
-    if string == 'True':
+    if string == "True":
         return True
-    elif string == 'False':
+    elif string == "False":
         return False
     else:
         raise ValueError

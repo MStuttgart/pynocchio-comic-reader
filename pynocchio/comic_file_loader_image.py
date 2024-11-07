@@ -1,7 +1,7 @@
 import logging
 
 from .comic_file_loader_dir import ComicDirLoader
-from .utility import get_dir_name, get_base_name, is_dir
+from .utility import get_base_name, get_dir_name, is_dir
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
@@ -13,10 +13,10 @@ class ComicImageLoader(ComicDirLoader):
         super().__init__()
 
     def load(self, filename):
-        """ Load image file and create Page objects with them.
+        """Load image file and create Page objects with them.
 
-            Args:
-                filename: name of compact image file
+        Args:
+            filename: name of compact image file
         """
 
         if is_dir(filename):

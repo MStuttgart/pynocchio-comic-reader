@@ -12,10 +12,8 @@ class PreferenceDialog(QtWidgets.QDialog):
         self.ui.setupUi(self)
 
         self.preference = preference
-        self.ui.line_edit_color.background_color = \
-            self.preference.background_color
-        self.ui.background_color_button.clicked.connect(
-            self._open_color_dialog)
+        self.ui.line_edit_color.background_color = self.preference.background_color
+        self.ui.background_color_button.clicked.connect(self._open_color_dialog)
 
     def _open_color_dialog(self):
         col_dialog = QtWidgets.QColorDialog(self)
@@ -25,6 +23,5 @@ class PreferenceDialog(QtWidgets.QDialog):
             self.ui.line_edit_color.background_color = col
 
     def close(self):
-        self.preference.background_color = \
-            self.ui.line_edit_color.background_color
+        self.preference.background_color = self.ui.line_edit_color.background_color
         super(PreferenceDialog, self).close(self)

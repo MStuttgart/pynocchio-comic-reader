@@ -1,7 +1,7 @@
 from PyQt5 import QtGui
 
 
-class ComicPageHandler():
+class ComicPageHandler:
 
     def __init__(self, comic, index=0):
         self.comic = comic
@@ -11,10 +11,10 @@ class ComicPageHandler():
         return self.comic.pages[self.current_page_index]
 
     def go_next_page(self):
-        raise NotImplementedError('Must subclass me!')
+        raise NotImplementedError("Must subclass me!")
 
     def go_previous_page(self):
-        raise NotImplementedError('Must subclass me!')
+        raise NotImplementedError("Must subclass me!")
 
     def go_first_page(self):
         self.current_page_index = 0
@@ -32,7 +32,7 @@ class ComicPageHandler():
             self._current_page_index = idx
 
     def get_current_page_image(self):
-        raise NotImplementedError('Must subclass me!')
+        raise NotImplementedError("Must subclass me!")
 
 
 class ComicPageHandlerSinglePage(ComicPageHandler):
@@ -53,6 +53,7 @@ class ComicPageHandlerSinglePage(ComicPageHandler):
 
     def get_current_page_image(self):
         return self.get_current_page().pixmap
+
 
 class ComicPageHandlerDoublePage(ComicPageHandler):
 

@@ -1,7 +1,7 @@
 import logging
 
-from .comic_file_loader_image import ComicImageLoader
 from .comic_file_loader_dir import ComicDirLoader, is_directory
+from .comic_file_loader_image import ComicImageLoader
 from .comic_file_loader_rar import ComicRarLoader, is_rarfile
 from .comic_file_loader_tar import ComicTarLoader, is_tarfile
 from .comic_file_loader_zip import ComicZipLoader, is_zipfile
@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
 
-class ComicLoaderFactory():
+class ComicLoaderFactory:
 
     @staticmethod
     def create_loader(filename):
@@ -22,7 +22,7 @@ class ComicLoaderFactory():
 
         file_extension = get_file_extension(filename=filename)
         if file_extension not in SUPPORTED_FILES:
-            message = 'File format is not supported: %s' % file_extension
+            message = "File format is not supported: %s" % file_extension
             logger.exception(message)
             raise InvalidTypeFileException(message)
 
@@ -40,6 +40,6 @@ class ComicLoaderFactory():
             logger.info("Creating tar loader")
             return ComicTarLoader()
         else:
-            message = 'File is not suported: %s' % file_extension
+            message = "File is not suported: %s" % file_extension
             logger.exception(message)
             raise InvalidTypeFileException(message)

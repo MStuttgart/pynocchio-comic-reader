@@ -10,5 +10,4 @@ class AboutDialog(QtWidgets.QDialog):
         self.ui = about_dialog_ui.Ui_AboutDialog()
         self.ui.setupUi(self)
 
-        self.ui.about_text_browser.setSource(QtCore.QUrl(
-            'qrc:///others/others/about.html'))
+        self.ui.about_text_browser.setSource(QtCore.QUrl("qrc:///others/others/about.html"))

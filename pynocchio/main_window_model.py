@@ -11,18 +11,18 @@ from .comic_page_handler_factory import ComicPageHandlerFactory
 from .comic_path_filter import ComicPathFilter
 from .exception import NoDataFindException
 from .settings_manager import SettingsManager
-from .utility import get_base_name, get_dir_name, is_file, is_dir
+from .utility import get_base_name, get_dir_name, is_dir, is_file
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
 
 class MainWindowModel(QtCore.QObject):
-    _ORIGINAL_FIT = 'action_original_fit'
-    _VERTICAL_FIT = 'action_vertical_fit'
-    _HORIZONTAL_FIT = 'action_horizontal_fit'
-    _BEST_FIT = 'action_best_fit'
-    _PAGE_FIT = 'action_page_fit'
+    _ORIGINAL_FIT = "action_original_fit"
+    _VERTICAL_FIT = "action_vertical_fit"
+    _HORIZONTAL_FIT = "action_horizontal_fit"
+    _BEST_FIT = "action_best_fit"
+    _PAGE_FIT = "action_page_fit"
 
     load_progress = QtCore.pyqtSignal(int)
     load_done = QtCore.pyqtSignal()
@@ -56,8 +56,7 @@ class MainWindowModel(QtCore.QObject):
         return self.settings_manager.load_current_directory()
 
     def load(self, filename, initial_page=None):
-        logger.info('Loading %s at %i', filename,
-                    0 if initial_page is None else initial_page)
+        logger.info("Loading %s at %i", filename, 0 if initial_page is None else initial_page)
 
         loader = ComicLoaderFactory.create_loader(filename)
         loader.progress.connect(self.load_progressbar_value)
@@ -66,13 +65,13 @@ class MainWindowModel(QtCore.QObject):
             loader.load(filename)
         except NoDataFindException as exc:
             from pynocchio.comic import Page
-            logger.exception('Error in load comic! %s', exc)
+
+            logger.exception("Error in load comic! %s", exc)
             q_file = QtCore.QFile(":/icons/not_cover.png")
             q_file.open(QtCore.QIODevice.ReadOnly)
-            loader.data.append(Page(q_file.readAll(), 'exit_red_1.png', 0))
+            loader.data.append(Page(q_file.readAll(), "exit_red_1.png", 0))
 
-        page = initial_page if initial_page is not None \
-            else loader.initial_page
+        page = initial_page if initial_page is not None else loader.initial_page
 
         # Memorize last page on comic
         if self.comic:
@@ -81,15 +80,13 @@ class MainWindowModel(QtCore.QObject):
             else:
                 self.remove_bookmark(table=TemporaryBookmark)
 
-        self.comic = Comic(get_base_name(filename),
-                           get_dir_name(filename))
+        self.comic = Comic(get_base_name(filename), get_dir_name(filename))
 
         self.comic.pages = loader.data
-        self.comic_page_handler = ComicPageHandlerFactory.create_handler(
-            False, self.comic, index=page)
+        self.comic_page_handler = ComicPageHandlerFactory.create_handler(False, self.comic, index=page)
         self.current_directory = get_dir_name(filename)
 
-        if is_dir(filename) or type(loader).__name__ == 'ComicImageLoader':
+        if is_dir(filename) or type(loader).__name__ == "ComicImageLoader":
             self.comic_file_filter.parse(filename, isdir=True)
         elif is_file(filename):
             self.comic_file_filter.parse(self.current_directory)
@@ -159,8 +156,7 @@ class MainWindowModel(QtCore.QObject):
         return self.comic_page_handler.current_page_index == 0
 
     def is_last_page(self):
-        return self.comic_page_handler.current_page_index + 1 == \
-            len(self.comic.pages)
+        return self.comic_page_handler.current_page_index + 1 == len(self.comic.pages)
 
     def is_first_comic(self):
         return self.comic_file_filter.is_first_comic(self.comic.name)
@@ -184,40 +180,34 @@ class MainWindowModel(QtCore.QObject):
 
         if self.fit_type == MainWindowModel._VERTICAL_FIT:
             f = h / height
-            if int(f*width) > w:
+            if int(f * width) > w:
                 h -= self.scroll_bar_size
                 f = h / height
-                if int(f*width) < w:
+                if int(f * width) < w:
                     f = w / width
-                    h = int(f*height)
+                    h = int(f * height)
             if self.resize_always or h < height:
-                pix_map = pix_map.scaledToHeight(
-                    h, QtCore.Qt.SmoothTransformation)
+                pix_map = pix_map.scaledToHeight(h, QtCore.Qt.SmoothTransformation)
 
         elif self.fit_type == MainWindowModel._HORIZONTAL_FIT:
             f = w / width
-            if int(f*height) > h:
+            if int(f * height) > h:
                 w -= self.scroll_bar_size
                 f = w / width
-                if int(f*height) < h:
+                if int(f * height) < h:
                     f = h / height
-                    w = int(f*width)
+                    w = int(f * width)
             if self.resize_always or w < width:
-                pix_map = pix_map.scaledToWidth(
-                    w, QtCore.Qt.SmoothTransformation)
+                pix_map = pix_map.scaledToWidth(w, QtCore.Qt.SmoothTransformation)
 
         elif self.fit_type == MainWindowModel._BEST_FIT:
             w *= 0.8
             if self.resize_always or w < width:
-                pix_map = pix_map.scaledToWidth(
-                    w, QtCore.Qt.SmoothTransformation)
+                pix_map = pix_map.scaledToWidth(w, QtCore.Qt.SmoothTransformation)
 
         elif self.fit_type == MainWindowModel._PAGE_FIT:
             if self.resize_always or w < width or h < height:
-                pix_map = pix_map.scaled(
-                    w, h,
-                    QtCore.Qt.KeepAspectRatio,
-                    QtCore.Qt.SmoothTransformation)
+                pix_map = pix_map.scaled(w, h, QtCore.Qt.KeepAspectRatio, QtCore.Qt.SmoothTransformation)
 
         pix_map.original_width = width
         pix_map.original_height = height
@@ -241,8 +231,7 @@ class MainWindowModel(QtCore.QObject):
 
     def double_page_mode(self, checked):
         index = self.comic_page_handler.current_page_index
-        self.comic_page_handler = ComicPageHandlerFactory.create_handler(
-            checked, self.comic, index=index)
+        self.comic_page_handler = ComicPageHandlerFactory.create_handler(checked, self.comic, index=index)
 
     def manga_page_mode(self, checked):
         if isinstance(self.comic_page_handler, ComicPageHandlerDoublePage):
@@ -277,19 +266,23 @@ class MainWindowModel(QtCore.QObject):
 
         if self.comic:
             BookmarkManager.add_bookmark(
-                self.comic.name, self.comic.path,
+                self.comic.name,
+                self.comic.path,
                 self.comic_page_handler.get_current_page().number,
                 data=self.comic_page_handler.get_current_page().data,
-                table=table)
+                table=table,
+            )
 
     def remove_bookmark(self, path=False, table=Bookmark):
         path = self.comic.path if not path else path
         BookmarkManager.remove_bookmark(path, table=table)
 
     def load_window(self, size, position):
-        return (self.settings_manager.load_window_size(size),
-                self.settings_manager.load_window_position(position),
-                self.settings_manager.load_window_state())
+        return (
+            self.settings_manager.load_window_size(size),
+            self.settings_manager.load_window_position(position),
+            self.settings_manager.load_window_state(),
+        )
 
     def load_toggles(self):
         return self.settings_manager.load_toggles()

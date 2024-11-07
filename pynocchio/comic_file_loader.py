@@ -17,4 +17,4 @@ class ComicLoader(QtCore.QObject):
         self.data = []
 
     def load(self, filename):
-        raise NotImplementedError('Must subclass me')
+        raise NotImplementedError("Must subclass me")
