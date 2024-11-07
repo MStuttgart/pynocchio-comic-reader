@@ -1,5 +1,6 @@
 import os
 
+from PyQt5 import QtGui
 
 class Comic():
     """This is basic class of Pynocchio. Represents a comic object"""
@@ -48,3 +49,14 @@ class Page():
         self.data = data
         self.title = title
         self.number = number
+        self._pixmap = None
+
+    @property
+    def pixmap(self):
+
+        if not self._pixmap:
+            self._pixmap = QtGui.QPixmap()
+            self._pixmap.loadFromData(self.data)
+
+        return self._pixmap
+

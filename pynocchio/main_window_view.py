@@ -12,10 +12,10 @@ from .thumbnails import ThumbnailsDock
 from .uic_files import main_window_view_ui
 from .utility import COMPACT_FILE_FORMATS, IMAGE_FILE_FORMATS, file_exist
 
-# try:
-#     import qdarkgraystyle
-# except ImportError:
-#     pass
+try:
+    import qdarkgraystyle
+except ImportError:
+    pass
 
 
 logging.basicConfig(level=logging.INFO)
@@ -36,7 +36,6 @@ class MainWindowView(QtWidgets.QMainWindow):
         self.ui.setupUi(self)
 
         self.default_stylesheet = QtWidgets.QApplication.instance().styleSheet()
-        # print(self.default_stylesheet)
 
         MainWindowView.MAX_RECENT_FILES = len(self.ui.menu_recent_files.actions())
 

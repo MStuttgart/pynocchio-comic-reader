@@ -52,10 +52,7 @@ class ComicPageHandlerSinglePage(ComicPageHandler):
             return False
 
     def get_current_page_image(self):
-        pix_map = QtGui.QPixmap()
-        pix_map.loadFromData(self.get_current_page().data)
-        return pix_map
-
+        return self.get_current_page().pixmap
 
 class ComicPageHandlerDoublePage(ComicPageHandler):
 
@@ -80,9 +77,7 @@ class ComicPageHandlerDoublePage(ComicPageHandler):
     def get_current_page_image(self):
 
         pages = []
-
-        page_a = QtGui.QPixmap()
-        page_a.loadFromData(self.get_current_page().data)
+        page_a = self.get_current_page().pixmap
 
         try:
 
@@ -90,8 +85,7 @@ class ComicPageHandlerDoublePage(ComicPageHandler):
 
             direction = -1 if self.get_current_page().number % 2 == 0 else 1
 
-            page_b.loadFromData(
-                self.comic.pages[self.current_page_index + direction].data)
+            page_b = self.comic.pages[self.current_page_index + direction].pixmap
 
         except IndexError:
             width = page_a.width()
