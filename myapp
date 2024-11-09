@@ -1,0 +1,1637 @@
+# Resource object code (Python 3)
+# Created by: object code
+# Created by: The Resource Compiler for Qt version 6.8.0
+# WARNING! All changes made in this file will be lost!
+
+from PySide6 import QtCore
+
+qt_resource_data = b"\
+\x00\x00\x01 \
+<\
+\xb8d\x18\xca\xef\x9c\x95\xcd!\x1c\xbf`\xa1\xbd\xdd\xa7\
+\x00\x00\x00\x05he_ILB\x00\x00\x00 \x04\xdc\
+\x93~\x00\x00\x001\x04\xeb\x98\xc7\x00\x00\x00i\x0cN\
+0\xd8\x00\x00\x00\x00\x0cv\x96\x81\x00\x00\x00\x9bi\x00\
+\x00\x00\xd5\x03\x00\x00\x00\x0c\x05\xd0\x05\xe0\x05\xd2\x05\xdc\
+\x05\xd9\x05\xea\x08\x00\x00\x00\x00\x06\x00\x00\x00\x07En\
+glish\x07\x00\x00\x00\x09Langua\
+ges\x01\x03\x00\x00\x00\x14\x05\xd2\x05\xb6\x05\xe8\x05\
+\xde\x05\xb8\x05\xe0\x05\xb4\x05\xd9\x05\xb8\x05\xea\x08\x00\x00\
+\x00\x00\x06\x00\x00\x00\x06German\x07\x00\x00\
+\x00\x09Languages\x01\x03\x00\x00\x00\
+\x0e\x05\xe2\x05\xb4\x05\xd1\x05\xe8\x05\xb4\x05\xd9\x05\xea\x08\
+\x00\x00\x00\x00\x06\x00\x00\x00\x06Hebrew\x07\
+\x00\x00\x00\x09Languages\x01\x03\x00\
+\x00\x00\x14\x05\xea\x05\xe2\x05\xe9\x05\xd4\x00 \x05\xd7\x05\
+\xd9\x05\xd9\x05\xdd\x00!\x08\x00\x00\x00\x00\x06\x00\x00\x00\
+\x09Have fun!\x07\x00\x00\x00\x08M\
+ainPage\x01\x88\x00\x00\x00\x02\x01\x01\
+\x00\x00\x01\x22\
+<\
+\xb8d\x18\xca\xef\x9c\x95\xcd!\x1c\xbf`\xa1\xbd\xdd\xa7\
+\x00\x00\x00\x05de_DEB\x00\x00\x00 \x04\xdc\
+\x93~\x00\x00\x005\x04\xeb\x98\xc7\x00\x00\x00g\x0cN\
+0\xd8\x00\x00\x00\x00\x0cv\x96\x81\x00\x00\x00\x9di\x00\
+\x00\x00\xd7\x03\x00\x00\x00\x10\x00E\x00n\x00g\x00l\
+\x00i\x00s\x00c\x00h\x08\x00\x00\x00\x00\x06\x00\x00\
+\x00\x07English\x07\x00\x00\x00\x09La\
+nguages\x01\x03\x00\x00\x00\x0e\x00D\x00\
+e\x00u\x00t\x00s\x00c\x00h\x08\x00\x00\x00\x00\
+\x06\x00\x00\x00\x06German\x07\x00\x00\x00\x09\
+Languages\x01\x03\x00\x00\x00\x12\x00\
+H\x00e\x00b\x00r\x00\xe4\x00i\x00s\x00c\x00\
+h\x08\x00\x00\x00\x00\x06\x00\x00\x00\x06Hebre\
+w\x07\x00\x00\x00\x09Languages\x01\
+\x03\x00\x00\x00\x14\x00V\x00i\x00e\x00l\x00 \x00\
+S\x00p\x00a\x00\xdf\x00!\x08\x00\x00\x00\x00\x06\x00\
+\x00\x00\x09Have fun!\x07\x00\x00\x00\
+\x08MainPage\x01\x88\x00\x00\x00\x02\x01\
+\x01\
+\x00\x00\x0f\x18\
+<\
+?xml version=\x221.\
+0\x22 encoding=\x22UTF\
+-8\x22 standalone=\x22\
+no\x22?>\x0a<svg\x0a   xm\
+lns:dc=\x22http://p\
+url.org/dc/eleme\
+nts/1.1/\x22\x0a   xml\
+ns:cc=\x22http://cr\
+eativecommons.or\
+g/ns#\x22\x0a   xmlns:\
+rdf=\x22http://www.\
+w3.org/1999/02/2\
+2-rdf-syntax-ns#\
+\x22\x0a   xmlns:svg=\x22\
+http://www.w3.or\
+g/2000/svg\x22\x0a   x\
+mlns=\x22http://www\
+.w3.org/2000/svg\
+\x22\x0a   xmlns:sodip\
+odi=\x22http://sodi\
+podi.sourceforge\
+.net/DTD/sodipod\
+i-0.dtd\x22\x0a   xmln\
+s:inkscape=\x22http\
+://www.inkscape.\
+org/namespaces/i\
+nkscape\x22\x0a   widt\
+h=\x22462pt\x22\x0a   hei\
+ght=\x22339pt\x22\x0a   v\
+iewBox=\x220 0 462 \
+339\x22\x0a   version=\
+\x221.1\x22\x0a   id=\x22svg\
+2\x22\x0a   inkscape:v\
+ersion=\x220.91 r13\
+725\x22\x0a   sodipodi\
+:docname=\x22TheQtC\
+ompany_logo_2.sv\
+g\x22>\x0a  <metadata\x0a\
+     id=\x22metadat\
+a20\x22>\x0a    <rdf:R\
+DF>\x0a      <cc:Wo\
+rk\x0a         rdf:\
+about=\x22\x22>\x0a      \
+  <dc:format>ima\
+ge/svg+xml</dc:f\
+ormat>\x0a        <\
+dc:type\x0a        \
+   rdf:resource=\
+\x22http://purl.org\
+/dc/dcmitype/Sti\
+llImage\x22 />\x0a    \
+    <dc:title></\
+dc:title>\x0a      \
+</cc:Work>\x0a    <\
+/rdf:RDF>\x0a  </me\
+tadata>\x0a  <defs\x0a\
+     id=\x22defs18\x22\
+ />\x0a  <sodipodi:\
+namedview\x0a     p\
+agecolor=\x22#fffff\
+f\x22\x0a     borderco\
+lor=\x22#666666\x22\x0a  \
+   borderopacity\
+=\x221\x22\x0a     object\
+tolerance=\x2210\x22\x0a \
+    gridtoleranc\
+e=\x2210\x22\x0a     guid\
+etolerance=\x2210\x22\x0a\
+     inkscape:pa\
+geopacity=\x220\x22\x0a  \
+   inkscape:page\
+shadow=\x222\x22\x0a     \
+inkscape:window-\
+width=\x221536\x22\x0a   \
+  inkscape:windo\
+w-height=\x22801\x22\x0a \
+    id=\x22namedvie\
+w16\x22\x0a     showgr\
+id=\x22false\x22\x0a     \
+inkscape:zoom=\x221\
+.1138643\x22\x0a     i\
+nkscape:cx=\x22270.\
+58047\x22\x0a     inks\
+cape:cy=\x22174.650\
+92\x22\x0a     inkscap\
+e:window-x=\x22-8\x22\x0a\
+     inkscape:wi\
+ndow-y=\x22-8\x22\x0a    \
+ inkscape:window\
+-maximized=\x221\x22\x0a \
+    inkscape:cur\
+rent-layer=\x22svg2\
+\x22 />\x0a  <path\x0a   \
+  fill=\x22#41cd52\x22\
+\x0a     d=\x22 M 63.5\
+0 0.00 L 462.00 \
+0.00 L 462.00 27\
+4.79 C 440.60 29\
+6.26 419.13 317.\
+66 397.61 339.00\
+ L 0.00 339.00 L\
+ 0.00 63.39 C 21\
+.08 42.18 42.34 \
+21.13 63.50 0.00\
+ Z\x22\x0a     id=\x22pat\
+h6\x22 />\x0a  <path\x0a \
+    d=\x22 M 122.37\
+ 71.33 C 137.50 \
+61.32 156.21 58.\
+79 174.00 58.95 \
+C 190.94 59.16 2\
+08.72 62.13 222.\
+76 72.24 C 232.9\
+6 79.41 239.59 9\
+0.48 244.01 101.\
+93 C 251.16 120.\
+73 253.26 141.03\
+ 253.50 161.01 C\
+ 253.53 181.13 2\
+52.62 201.69 245\
+.96 220.86 C 241\
+.50 233.90 233.0\
+1 245.48 221.81 \
+253.52 C 229.87 \
+266.58 238.09 27\
+9.54 246.15 292.\
+60 C 236.02 297.\
+27 225.92 301.97\
+ 215.78 306.62 C\
+ 207.15 292.38 1\
+98.56 278.11 189\
+.90 263.89 C 178\
+.19 265.81 166.2\
+1 265.66 154.44 \
+264.36 C 140.34 \
+262.67 125.97 25\
+8.37 115.09 248.\
+88 C 106.73 241.\
+64 101.48 231.51\
+ 97.89 221.21 C \
+92.01 203.79 90.\
+43 185.25 90.16 \
+166.97 C 90.02 1\
+47.21 91.28 127.\
+14 97.24 108.18 \
+C 101.85 93.92 1\
+09.48 79.69 122.\
+37 71.33 Z\x22\x0a    \
+ id=\x22path8\x22\x0a    \
+ fill=\x22#ffffff\x22 \
+/>\x0a  <path\x0a     \
+d=\x22 M 294.13 70.\
+69 C 304.73 70.6\
+8 315.33 70.68 3\
+25.93 70.69 C 32\
+5.96 84.71 325.9\
+2 98.72 325.95 1\
+12.74 C 339.50 1\
+12.76 353.05 112\
+.74 366.60 112.7\
+5 C 366.37 121.8\
+5 366.12 130.95 \
+365.86 140.05 C \
+352.32 140.08 33\
+8.79 140.04 325.\
+25 140.07 C 325.\
+28 163.05 325.18\
+ 186.03 325.30 2\
+09.01 C 325.56 2\
+15.30 325.42 221\
+.94 328.19 227.7\
+5 C 330.21 232.2\
+3 335.65 233.38 \
+340.08 233.53 C \
+348.43 233.50 35\
+6.77 233.01 365.\
+12 232.86 C 365.\
+63 241.22 366.12\
+ 249.59 366.60 2\
+57.95 C 349.99 2\
+60.74 332.56 264\
+.08 316.06 258.8\
+6 C 309.11 256.8\
+0 302.63 252.19 \
+299.81 245.32 C \
+294.76 233.63 29\
+4.35 220.62 294.\
+13 208.07 C 294.\
+11 185.40 294.13\
+ 162.74 294.12 1\
+40.07 C 286.73 1\
+40.05 279.34 140\
+.08 271.95 140.0\
+5 C 271.93 130.9\
+6 271.93 121.86 \
+271.95 112.76 C \
+279.34 112.73 28\
+6.72 112.77 294.\
+11 112.74 C 294.\
+14 98.72 294.10 \
+84.71 294.13 70.\
+69 Z\x22\x0a     id=\x22p\
+ath10\x22\x0a     fill\
+=\x22#ffffff\x22 />\x0a  \
+<path\x0a     fill=\
+\x22#41cd52\x22\x0a     d\
+=\x22 M 160.51 87.7\
+0 C 170.80 86.36\
+ 181.60 86.72 19\
+1.34 90.61 C 199\
+.23 93.73 205.93\
+ 99.84 209.47 10\
+7.58 C 214.90 11\
+9.31 216.98 132.\
+26 218.03 145.05\
+ C 219.17 162.07\
+ 219.01 179.25 2\
+16.66 196.17 C 2\
+15.01 206.24 212\
+.66 216.85 205.8\
+4 224.79 C 198.9\
+2 232.76 188.25 \
+236.18 178.01 23\
+6.98 C 167.21 23\
+7.77 155.82 236.\
+98 146.07 231.87\
+ C 140.38 228.84\
+ 135.55 224.09 1\
+32.73 218.27 C 1\
+29.31 211.30 127\
+.43 203.69 126.1\
+1 196.07 C 122.1\
+3 171.91 121.17 \
+146.91 126.61 12\
+2.89 C 128.85 11\
+3.83 132.11 104.\
+53 138.73 97.70 \
+C 144.49 91.85 1\
+52.51 88.83 160.\
+51 87.70 Z\x22\x0a    \
+ id=\x22path12\x22 />\x0a\
+</svg>\x0a\
+\x00\x00\x00Q\
+[\
+Controls]\x0aStyle=\
+Material\x0a\x0a[Mater\
+ial]\x0aVariant=Den\
+se\x0aAccent=LightG\
+reen\x0aTheme=Dark\x0a\
+\
+\x00\x00\x01\x0c\
+<\
+svg xmlns=\x22http:\
+//www.w3.org/200\
+0/svg\x22 height=\x222\
+4px\x22 viewBox=\x220 \
+0 24 24\x22 width=\x22\
+24px\x22 fill=\x22#000\
+000\x22><path d=\x22M0\
+ 0h24v24H0V0z\x22 f\
+ill=\x22none\x22/><pat\
+h d=\x22M19 6.41L17\
+.59 5 12 10.59 6\
+.41 5 5 6.41 10.\
+59 12 5 17.59 6.\
+41 19 12 13.41 1\
+7.59 19 19 17.59\
+ 13.41 12 19 6.4\
+1z\x22/></svg>\
+\x00\x00\x00\xaf\
+<\
+svg xmlns=\x22http:\
+//www.w3.org/200\
+0/svg\x22 height=\x222\
+4px\x22 viewBox=\x220 \
+0 24 24\x22 width=\x22\
+24px\x22 fill=\x22#000\
+000\x22><path d=\x22M0\
+ 0h24v24H0V0z\x22 f\
+ill=\x22none\x22/><pat\
+h d=\x22M6 19h12v2H\
+6v-2z\x22/></svg>\
+\x00\x00\x01\x17\
+<\
+svg xmlns=\x22http:\
+//www.w3.org/200\
+0/svg\x22 enable-ba\
+ckground=\x22new 0 \
+0 24 24\x22 height=\
+\x2224px\x22 viewBox=\x22\
+0 0 24 24\x22 width\
+=\x2224px\x22 fill=\x22#0\
+00000\x22><rect fil\
+l=\x22none\x22 height=\
+\x2224\x22 width=\x2224\x22/\
+><polygon points\
+=\x2221,11 21,3 13,\
+3 16.29,6.29 6.2\
+9,16.29 3,13 3,2\
+1 11,21 7.71,17.\
+71 17.71,7.71\x22/>\
+</svg>\
+\x00\x00\x016\
+<\
+svg xmlns=\x22http:\
+//www.w3.org/200\
+0/svg\x22 enable-ba\
+ckground=\x22new 0 \
+0 24 24\x22 height=\
+\x2224px\x22 viewBox=\x22\
+0 0 24 24\x22 width\
+=\x2224px\x22 fill=\x22#0\
+00000\x22><rect fil\
+l=\x22none\x22 height=\
+\x2224\x22 width=\x2224\x22/\
+><path d=\x22M22,3.\
+41l-5.29,5.29L20\
+,12h-8V4l3.29,3.\
+29L20.59,2L22,3.\
+41z M3.41,22l5.2\
+9-5.29L12,20v-8H\
+4l3.29,3.29L2,20\
+.59L3.41,22z\x22/><\
+/svg>\
+\x00\x00\x08\x19\
+/\
+*\x0aCopyright\x0a\x0aThi\
+s program is fre\
+e software: you \
+can redistribute\
+ it and/or modif\
+y\x0ait under the t\
+erms of the GNU \
+General Public L\
+icense as publis\
+hed by\x0athe Free \
+Software Foundat\
+ion, either vers\
+ion 3 of the Lic\
+ense, or\x0a(at you\
+r option) any la\
+ter version.\x0a\x0aTh\
+is program is di\
+stributed in the\
+ hope that it wi\
+ll be useful,\x0abu\
+t WITHOUT ANY WA\
+RRANTY; without \
+even the implied\
+ warranty of\x0aMER\
+CHANTABILITY or \
+FITNESS FOR A PA\
+RTICULAR PURPOSE\
+.  See the\x0aGNU G\
+eneral Public Li\
+cense for more d\
+etails.\x0a\x0aYou sho\
+uld have receive\
+d a copy of the \
+GNU General Publ\
+ic License\x0aalong\
+ with this progr\
+am.  If not, see\
+ <http://www.gnu\
+.org/licenses/>.\
+\x0a*/\x0a\x0aimport QtQu\
+ick\x0aimport QtQui\
+ck.Controls\x0a\x0aimp\
+ort app\x0a\x0a\x0aApplic\
+ationWindow {\x0a  \
+  id: root\x0a\x0a    \
+width: 1280\x0a    \
+height: 720\x0a    \
+flags: Qt.Framel\
+essWindowHint | \
+Qt.Window\x0a    vi\
+sible: true\x0a\x0a   \
+ LayoutMirroring\
+.enabled: Qt.app\
+lication.layoutD\
+irection === Qt.\
+RightToLeft\x0a    \
+LayoutMirroring.\
+childrenInherit:\
+ true\x0a\x0a    Pynoc\
+chioMainPage {\x0a \
+       appWindow\
+: _shared\x0a\x0a     \
+   anchors {\x0a   \
+         fill: r\
+oot.contentItem\x0a\
+            marg\
+ins: _private.wi\
+ndowBorder\x0a     \
+   }\x0a    }\x0a\x0a    \
+Component.onComp\
+leted: {\x0a       \
+ // load languag\
+e from settings\x0a\
+        // Qt.ui\
+Language = ...\x0a \
+   }\x0a\x0a    QtObje\
+ct {\x0a        id:\
+ _private  // Im\
+plementation det\
+ails not exposed\
+ to child items\x0a\
+\x0a        readonl\
+y property bool \
+maximized: root.\
+visibility === W\
+indow.Maximized\x0a\
+        readonly\
+ property bool f\
+ullscreen: root.\
+visibility === W\
+indow.FullScreen\
+\x0a        readonl\
+y property int w\
+indowBorder: ful\
+lscreen || maxim\
+ized ? 0 : 1\x0a   \
+ }\x0a\x0a    QtObject\
+ {\x0a        id: _\
+shared  // Prope\
+rties and functi\
+ons exposed to c\
+hild items\x0a\x0a    \
+    readonly pro\
+perty var visibi\
+lity: root.visib\
+ility\x0a\x0a        f\
+unction startSys\
+temMove() {\x0a    \
+        root.sta\
+rtSystemMove()\x0a \
+       }\x0a\x0a      \
+  function showM\
+inimized() {\x0a   \
+         root.sh\
+owMinimized()\x0a  \
+      }\x0a\x0a       \
+ function showMa\
+ximized() {\x0a    \
+        root.sho\
+wMaximized()\x0a   \
+     }\x0a\x0a        \
+function showNor\
+mal() {\x0a        \
+    root.showNor\
+mal()\x0a        }\x0a\
+\x0a        functio\
+n close() {\x0a    \
+        root.clo\
+se()\x0a        }\x0a \
+   }\x0a\x0a}\x0a\
+\x00\x00\x05\xaa\
+/\
+*\x0aCopyright\x0a\x0aThi\
+s program is fre\
+e software: you \
+can redistribute\
+ it and/or modif\
+y\x0ait under the t\
+erms of the GNU \
+General Public L\
+icense as publis\
+hed by\x0athe Free \
+Software Foundat\
+ion, either vers\
+ion 3 of the Lic\
+ense, or\x0a(at you\
+r option) any la\
+ter version.\x0a\x0aTh\
+is program is di\
+stributed in the\
+ hope that it wi\
+ll be useful,\x0abu\
+t WITHOUT ANY WA\
+RRANTY; without \
+even the implied\
+ warranty of\x0aMER\
+CHANTABILITY or \
+FITNESS FOR A PA\
+RTICULAR PURPOSE\
+.  See the\x0aGNU G\
+eneral Public Li\
+cense for more d\
+etails.\x0a\x0aYou sho\
+uld have receive\
+d a copy of the \
+GNU General Publ\
+ic License\x0aalong\
+ with this progr\
+am.  If not, see\
+ <http://www.gnu\
+.org/licenses/>.\
+\x0a*/\x0a\x0aimport QtQu\
+ick\x0a\x0a\x0aItem {\x0a   \
+ id: root\x0a\x0a    r\
+equired property\
+ var appWindow\x0a\x0a\
+    width: paren\
+t.width\x0a    heig\
+ht: headerBar.he\
+ight\x0a\x0a    TapHan\
+dler {\x0a        g\
+esturePolicy: Ta\
+pHandler.DragThr\
+eshold\x0a\x0a        \
+onTapped: {\x0a    \
+        if (tapC\
+ount === 2) {\x0a  \
+              if\
+ (root.appWindow\
+.visibility === \
+Window.Maximized\
+) {\x0a            \
+        root.app\
+Window.showNorma\
+l()\x0a            \
+    } else {\x0a   \
+                \
+ root.appWindow.\
+showMaximized()\x0a\
+                \
+}\x0a            }\x0a\
+        }\x0a    }\x0a\
+\x0a    DragHandler\
+ {\x0a        targe\
+t: null\x0a        \
+grabPermissions:\
+ TapHandler.CanT\
+akeOverFromAnyth\
+ing\x0a\x0a        onA\
+ctiveChanged: {\x0a\
+            if (\
+active) {\x0a      \
+          root.a\
+ppWindow.startSy\
+stemMove()\x0a     \
+       }\x0a       \
+ }\x0a    }\x0a\x0a    Py\
+nocchioHeaderCon\
+tent {\x0a        i\
+d: headerBar\x0a\x0a  \
+      appWindow:\
+ root.appWindow\x0a\
+    }\x0a\x0a}\x0a\
+\x00\x00\x04\xdc\
+/\
+*\x0aCopyright\x0a\x0aThi\
+s program is fre\
+e software: you \
+can redistribute\
+ it and/or modif\
+y\x0ait under the t\
+erms of the GNU \
+General Public L\
+icense as publis\
+hed by\x0athe Free \
+Software Foundat\
+ion, either vers\
+ion 3 of the Lic\
+ense, or\x0a(at you\
+r option) any la\
+ter version.\x0a\x0aTh\
+is program is di\
+stributed in the\
+ hope that it wi\
+ll be useful,\x0abu\
+t WITHOUT ANY WA\
+RRANTY; without \
+even the implied\
+ warranty of\x0aMER\
+CHANTABILITY or \
+FITNESS FOR A PA\
+RTICULAR PURPOSE\
+.  See the\x0aGNU G\
+eneral Public Li\
+cense for more d\
+etails.\x0a\x0aYou sho\
+uld have receive\
+d a copy of the \
+GNU General Publ\
+ic License\x0aalong\
+ with this progr\
+am.  If not, see\
+ <http://www.gnu\
+.org/licenses/>.\
+\x0a*/\x0a\x0aimport QtQu\
+ick.Controls\x0a\x0aim\
+port shared\x0a\x0a\x0aPy\
+nocchioAutoWidth\
+Menu {\x0a    title\
+: qsTranslate(\x22H\
+eaderBar\x22, \x22&Hel\
+p\x22)\x0a\x0a    Action \
+{\x0a        text: \
+qsTranslate(\x22Hea\
+derBar\x22, \x22&Actio\
+n 1\x22)\x0a        sh\
+ortcut: \x22CTRL+N\x22\
+\x0a\x0a        onTrig\
+gered: {\x0a       \
+     console.log\
+(\x22Action 1 press\
+ed\x22)\x0a        }\x0a \
+   }\x0a\x0a    Action\
+ {\x0a        text:\
+ qsTranslate(\x22He\
+aderBar\x22, \x22&Acti\
+on 2\x22)\x0a\x0a        \
+onTriggered: {\x0a \
+           conso\
+le.log(\x22Action 2\
+ pressed\x22)\x0a     \
+   }\x0a    }\x0a\x0a    \
+MenuSeparator { \
+}\x0a\x0a    Action {\x0a\
+        text: qs\
+Translate(\x22Heade\
+rBar\x22, \x22&Action \
+3\x22)\x0a\x0a        onT\
+riggered: {\x0a    \
+        console.\
+log(\x22Action 3 pr\
+essed\x22)\x0a        \
+}\x0a    }\x0a\x0a}\x0a\
+\x00\x00\x06\x0a\
+/\
+*\x0aCopyright\x0a\x0aThi\
+s program is fre\
+e software: you \
+can redistribute\
+ it and/or modif\
+y\x0ait under the t\
+erms of the GNU \
+General Public L\
+icense as publis\
+hed by\x0athe Free \
+Software Foundat\
+ion, either vers\
+ion 3 of the Lic\
+ense, or\x0a(at you\
+r option) any la\
+ter version.\x0a\x0aTh\
+is program is di\
+stributed in the\
+ hope that it wi\
+ll be useful,\x0abu\
+t WITHOUT ANY WA\
+RRANTY; without \
+even the implied\
+ warranty of\x0aMER\
+CHANTABILITY or \
+FITNESS FOR A PA\
+RTICULAR PURPOSE\
+.  See the\x0aGNU G\
+eneral Public Li\
+cense for more d\
+etails.\x0a\x0aYou sho\
+uld have receive\
+d a copy of the \
+GNU General Publ\
+ic License\x0aalong\
+ with this progr\
+am.  If not, see\
+ <http://www.gnu\
+.org/licenses/>.\
+\x0a*/\x0a\x0aimport QtQu\
+ick.Controls\x0a\x0aim\
+port shared\x0a\x0a\x0aPy\
+nocchioAutoWidth\
+Menu {\x0a    title\
+: qsTranslate(\x22H\
+eaderBar\x22, \x22&Men\
+u 1\x22)\x0a\x0a    Actio\
+n {\x0a        text\
+: qsTranslate(\x22H\
+eaderBar\x22, \x22&Act\
+ion 1\x22)\x0a        \
+shortcut: \x22CTRL+\
+N\x22\x0a\x0a        onTr\
+iggered: {\x0a     \
+       console.l\
+og(\x22Action 1 pre\
+ssed\x22)\x0a        }\
+\x0a    }\x0a\x0a    Acti\
+on {\x0a        tex\
+t: qsTranslate(\x22\
+HeaderBar\x22, \x22&Ac\
+tion 2\x22)\x0a\x0a      \
+  onTriggered: {\
+\x0a            con\
+sole.log(\x22Action\
+ 2 pressed\x22)\x0a   \
+     }\x0a    }\x0a\x0a  \
+  Action {\x0a     \
+   text: qsTrans\
+late(\x22HeaderBar\x22\
+, \x22&Action 3\x22)\x0a\x0a\
+        onTrigge\
+red: {\x0a         \
+   console.log(\x22\
+Action 3 pressed\
+\x22)\x0a        }\x0a   \
+ }\x0a\x0a    Action {\
+\x0a        text: q\
+sTranslate(\x22Head\
+erBar\x22, \x22&Action\
+ 4\x22)\x0a\x0a        on\
+Triggered: {\x0a   \
+         console\
+.log(\x22Action 4 p\
+ressed\x22)\x0a       \
+ }\x0a    }\x0a\x0a    Me\
+nuSeparator { }\x0a\
+\x0a    Action {\x0a  \
+      text: qsTr\
+anslate(\x22HeaderB\
+ar\x22, \x22&Action 5\x22\
+)\x0a\x0a        onTri\
+ggered: {\x0a      \
+      console.lo\
+g(\x22Action 5 pres\
+sed\x22)\x0a        }\x0a\
+    }\x0a\x0a}\x0a\
+\x00\x00\x04(\
+(\
+\xb5/\xfd`\xf6\x0c\xf5 \x00Vu\x9a'\xe0\x948\
+\x07T\x00\xf0\xc9\x02[(\x8e\xc4Z\xe5\xf7\x83B\x08\
+\xe8\xa0\xeam7\xe2\x84\xd2?y\x1dx9;\x861\
+\x06\xc2\x08/\x83\x00\x99\x00\x8d\x00*\xb3\xabt\x08\xd7\
+3\x9d5\xaf\x18[q?A\xd3\xc1\x7f\xa2\xfb\x00\xc6\
+\xef\xe9\x04Z\xf3\x0b\x14\x1eyek\xe7\xbd\xfa\x82\xc8\
+;\x1d[\x9eai\x1f\xe9\x93Z\x12\xbbtW\x19\xf5\
+-\xe6o\xa1\x94i\x0e]kT\x8akd((\xbe\
+\xbcZ\xe7\xd5\x9ao\x9db\xf6\xb9\xedC\xed\xc4\xd7\x9b\
+'St\x9f{\x9d\x99\xb4=\xe5N\xda\x8f\xee=\xe3\
+\xcf#m\xe7\x99\x14\xcb\xab6u\xb9\xbf\x5cW\xdc\xd8\
+\xe5Z\x9c\xd6\xa6Um\x7f0\xae4\x82I\x5c\x81@\
+\xdef\x18\x13\xe3\xb3\xb9\xb5\x09A\x83 &\x12N\xaa\
+f(\x8b\x15\xe4\xf1x&\x93\x08\x9b\xd3r\xb8\xaa|\
+\xc1\xe4x\xea2_E\x86\xae}0~w\x9f\xb4\xb3\
+\xfa\xb4\xaf\x1dg}\x82\x19[\xf2\x19wH\xb8n\xea\
+tm\xaa\xa9f\xfc\xd0D\xc6\x85f\xa3\xa1\xf9\x86\x82\
+\xd1\xa8\x5c8\x1b\x8a\xe6\x94o.,\xcf\xc8\x98\xc8p\
+.\x967\xbf\x83s\xc1\x5c$(\x15\x95\xcd\x84E\xa3\
+\xf8\x9f\x19]\x7f\xd2\x85\xd8\xb5\xda\xd1\xcf\x8c\xad\xd9\xd0\
+\xc1\xc9P6\x1b\x0a\xc7;2\x94s4.*8\x17\
+\x8e\xb7\x02\x98Q\x013\xe3\x8f\xc3<\xd2i\xa1&\x9c\
+\xc0\xe0\x1bogk\xa5\x02\xe2D\xbdb\xb5\x90\x02\xdd\
+\x8c<\xb2\xcd\x96^.B\xd0\xc4x4EtB\x95\
+\x1c\x06\x83Z!/J\xd6\xc2k\xbd\xc7\xf1\xa3)\x01\
+\x90\xd1\xf5\x04x\xd4\x0c\xf9)\xac\xa2\x9bO71\xe3\
+\xae@\x9e\x93\x9aE;xT\xc5}\x0e\x93\x1e\xde@\
+\xed$\xb2\xa8\xd7#\xb5\xa0\x19\xb5\x1d\xf6\xc8\x9a\xd3z\
+<<\xc5\xe5\xc00\xf7v\x9d\x7ff+6io\x16\
+\xa2\xdd&s?\x9a\xf6\xff\x1b\xc9/\x9d\x97\xd6\x9a\x84\
+\xdc3\x06\xadD%\xd4\x0f\x08\x9c\xda\xe8\x11\x8f\xaa\xfd\
+\xa4J\x86\x0f\xba\xab9\x03aFy\xc4\xf5\x88\xb03\
+\x8b?<<,\x5ci\xe5v\xa2Ij\xd3\x0e\x08L\
+\x16\x1e\xb6$\x14M\x0a\xf2\x16V\x22OJ!$\xe2\
+Z6[/\xba\x12\x06\x84\xaa#!lZH\xf0\x80\
+\x92\xc7DN\xdct\xd3$z\x1d\x02\xf0:\xe3\xb7\x16\
+\xce|\xdeB\xd6\xc8\xec1\x15\xa0#{m\xdc+\xe0\
+r\x99\xf9\xf4Cb\x09\xc8\xcci\xad\x18\xe6\x9a#\xf2\
+\x9c\x99\xb4\x89>)\xc5LD|R(\xb9\xa8P\x15\
+\xb7\xb9{-\x02\x80\xb3\xa0q%CfF\xc6d\x82\
+\x14\xa4\xa0\x90\xe1 \x84\x10\xc4\xd8\x95\x07\xbc\x18Z\x0c\
+p\x17\xa2 \x0a\x84\x1b\xa8\x16\x90\xe8y\x90\x17\xa1\xd2\
+\xad\xccy\xa1\xd0\xcbA\xbb\x0b\xe5\x1a`H\xc3S0\
+\xd7\x86\x99K\xdf\x15\x06v[\xa3Q\xed\xaf@s\xa3\
+\x04\xf1\xaep\xb0R\x94j?\xd4R\x9aa-K\xdd\
+\xbb\xdct\x9f\xc2\x08\xa9\x14\x1ci\x83\xeai\x01\xfc\x03\
+-\xeb\xf4\xb0\xf0\x17\xf1\xf9\x87\x92nk\x07\xae\x11\xa4\
+\xe8\xe2>\x06,\x98\x02!\xd4,\x8e\x9a8\x9e\xd2\x91\
+C\xa0\x01sh\x0f2\x97\x02C\xcc\x15\x94\x82\xaeW\
+,Z\xf3\x1f\x0929B\xd2\xee7\xbb&\x8c\xde\x22\
+:\x96\x1d\x86\x1c\x94\x80,\xce\x1ea6p.\x13\x88\
+/8\x0e4\xacA\x9e\xe92\xf2+Yh\xd1v\xd8\
+\x8c\xd3\xcd\xf6A\xe6\x01e\xc7c\x03\xc4\x09\xe0\xd3t\
+\xa7\x17\x07\x87\xce\xc9\xa4=\x8c\xefhx\xd0\xb5c\xeb\
+\x12<\x22\x0dD3'C\x82K\x87\x8d\x8f\x1f\x88\x8d\
+O\x1b\x0d\xceOq\xd8\xd6\xe3\x90\x145\xde\x03\xd8\xfe\
+\x181xt\xcd\x07\xcc0\x00\x9f~\xe0\xee\xc5?@\
+L\x1a(\xb8;hzK,\x9e.\xd7C\x1e{\x8d\
+\xa4s1`r\x90\x8dr\x91\xc7\x83\xd6\x11\x1e\x0e\xf0\
+\x00\x82\x00X\xa7\xd6\x92\xc7\xc1\xa0\xc1D\x03\x9d\x8af\
+y\xc0\xb8oXX\x80f\xeez\x08\xb3ay\x12\xac\
+:\xe1\x1b\x1a\x89\x1eQ\xa6#\xd4~aw\x0f\x07Q\
+\x0a\x0cW\x06n\x07S\x5c]\xce\xa7w(\xf7\x81\x92\
+\xb8(\x95\x98\xa3\xda\xaa\xce\x00\x04%\xd0E\x0c%\x80\
+T\x03L\xfb\x80W\xee\xed\x1b\xe9\xf5\xb2\xdd\x82k\x82\
+\xb65\x0a\xb1$2\x19\x02\x90epr\x01\xda\x941\
+\xfd\x1a\xa3PhU\x15\
+\x00\x00\x08\xd1\
+/\
+*\x0aCopyright\x0a\x0aThi\
+s program is fre\
+e software: you \
+can redistribute\
+ it and/or modif\
+y\x0ait under the t\
+erms of the GNU \
+General Public L\
+icense as publis\
+hed by\x0athe Free \
+Software Foundat\
+ion, either vers\
+ion 3 of the Lic\
+ense, or\x0a(at you\
+r option) any la\
+ter version.\x0a\x0aTh\
+is program is di\
+stributed in the\
+ hope that it wi\
+ll be useful,\x0abu\
+t WITHOUT ANY WA\
+RRANTY; without \
+even the implied\
+ warranty of\x0aMER\
+CHANTABILITY or \
+FITNESS FOR A PA\
+RTICULAR PURPOSE\
+.  See the\x0aGNU G\
+eneral Public Li\
+cense for more d\
+etails.\x0a\x0aYou sho\
+uld have receive\
+d a copy of the \
+GNU General Publ\
+ic License\x0aalong\
+ with this progr\
+am.  If not, see\
+ <http://www.gnu\
+.org/licenses/>.\
+\x0a*/\x0a\x0aimport QtQu\
+ick\x0aimport QtQui\
+ck.Controls\x0aimpo\
+rt QtQuick.Dialo\
+gs\x0a\x0aimport share\
+d\x0aimport models\x0a\
+\x0a\x0aPynocchioAutoW\
+idthMenu {\x0a    i\
+d: root\x0a\x0a    tit\
+le: qsTranslate(\
+\x22HeaderBar\x22, \x22&O\
+ptions\x22)\x0a\x0a    Py\
+nocchioAutoWidth\
+Menu {\x0a        t\
+itle: qsTranslat\
+e(\x22HeaderBar\x22, \x22\
+&Language\x22)\x0a\x0a   \
+     Repeater {\x0a\
+            mode\
+l: PynocchioLang\
+uageModel {}\x0a\x0a  \
+          MenuIt\
+em {\x0a           \
+     id: _itemDe\
+legate\x0a\x0a        \
+        required\
+ property string\
+ language  // fr\
+om model\x0a       \
+         require\
+d property strin\
+g abbrev  // fro\
+m model\x0a\x0a       \
+         text: q\
+sTranslate(\x22Lang\
+uages\x22, _itemDel\
+egate.language)\x0a\
+\x0a               \
+ onTriggered: {\x0a\
+                \
+    animationDel\
+ayTimer.start()\x0a\
+                \
+}\x0a\x0a             \
+   Timer {\x0a     \
+               i\
+d: animationDela\
+yTimer\x0a\x0a        \
+            inte\
+rval: 125\x0a\x0a     \
+               o\
+nTriggered: {\x0a  \
+                \
+      Qt.uiLangu\
+age = _itemDeleg\
+ate.abbrev\x0a     \
+               }\
+\x0a               \
+ }\x0a            }\
+\x0a        }\x0a    }\
+\x0a\x0a    MenuSepara\
+tor {\x0a    }\x0a\x0a   \
+ Action {\x0a      \
+  text: qsTransl\
+ate(\x22HeaderBar\x22,\
+ \x22Showcase trans\
+lated Qt interna\
+l strings\x22)\x0a\x0a   \
+     property va\
+r factory: Compo\
+nent\x0a        {\x0a \
+           Messa\
+geDialog {\x0a     \
+           title\
+: qsTranslate(\x22M\
+essageBoxes\x22, \x22T\
+itle\x22)\x0a         \
+       text: qsT\
+ranslate(\x22Messag\
+eBoxes\x22, \x22Change\
+ the language an\
+d look at the 'Y\
+es' and 'Cancel'\
+ buttons\x22)\x0a     \
+           butto\
+ns: MessageDialo\
+g.Yes | MessageD\
+ialog.Cancel\x0a   \
+             vis\
+ible: true\x0a     \
+       }\x0a       \
+ }\x0a\x0a        onTr\
+iggered: {\x0a     \
+       const dia\
+log = factory.cr\
+eateObject(root)\
+\x0a            dia\
+log.closed.conne\
+ct(dialog.destro\
+y)\x0a            d\
+ialog.open()\x0a   \
+     }\x0a    }\x0a\x0a}\x0a\
+\
+\x00\x00\x002\
+m\
+odule header\x0aPyn\
+occhioHeader Pyn\
+occhioHeader.qml\
+\x0a\
+\x00\x00\x03\xc5\
+/\
+*\x0aCopyright\x0a\x0aThi\
+s program is fre\
+e software: you \
+can redistribute\
+ it and/or modif\
+y\x0ait under the t\
+erms of the GNU \
+General Public L\
+icense as publis\
+hed by\x0athe Free \
+Software Foundat\
+ion, either vers\
+ion 3 of the Lic\
+ense, or\x0a(at you\
+r option) any la\
+ter version.\x0a\x0aTh\
+is program is di\
+stributed in the\
+ hope that it wi\
+ll be useful,\x0abu\
+t WITHOUT ANY WA\
+RRANTY; without \
+even the implied\
+ warranty of\x0aMER\
+CHANTABILITY or \
+FITNESS FOR A PA\
+RTICULAR PURPOSE\
+.  See the\x0aGNU G\
+eneral Public Li\
+cense for more d\
+etails.\x0a\x0aYou sho\
+uld have receive\
+d a copy of the \
+GNU General Publ\
+ic License\x0aalong\
+ with this progr\
+am.  If not, see\
+ <http://www.gnu\
+.org/licenses/>.\
+\x0a*/\x0a\x0aimport QtQu\
+ick\x0a\x0a\x0aListModel \
+{\x0a    readonly p\
+roperty var lang\
+uagesForTranslat\
+ionTool: [\x0a     \
+   qsTranslate(\x22\
+Languages\x22, \x22Eng\
+lish\x22),\x0a        \
+qsTranslate(\x22Lan\
+guages\x22, \x22German\
+\x22),\x0a    ]\x0a\x0a    L\
+istElement {\x0a   \
+     language: \x22\
+English\x22\x0a       \
+ abbrev: \x22en_US\x22\
+\x0a    }\x0a    ListE\
+lement {\x0a       \
+ language: \x22Germ\
+an\x22\x0a        abbr\
+ev: \x22de_DE\x22\x0a    \
+}\x0a}\x0a\
+\x00\x00\x00@\
+m\
+odule models\x0aPyn\
+occhioLanguageMo\
+del PynocchioLan\
+guageModel.qml\x0a\
+\x00\x00\x06\xcd\
+/\
+*\x0aCopyright\x0a\x0aThi\
+s program is fre\
+e software: you \
+can redistribute\
+ it and/or modif\
+y\x0ait under the t\
+erms of the GNU \
+General Public L\
+icense as publis\
+hed by\x0athe Free \
+Software Foundat\
+ion, either vers\
+ion 3 of the Lic\
+ense, or\x0a(at you\
+r option) any la\
+ter version.\x0a\x0aTh\
+is program is di\
+stributed in the\
+ hope that it wi\
+ll be useful,\x0abu\
+t WITHOUT ANY WA\
+RRANTY; without \
+even the implied\
+ warranty of\x0aMER\
+CHANTABILITY or \
+FITNESS FOR A PA\
+RTICULAR PURPOSE\
+.  See the\x0aGNU G\
+eneral Public Li\
+cense for more d\
+etails.\x0a\x0aYou sho\
+uld have receive\
+d a copy of the \
+GNU General Publ\
+ic License\x0aalong\
+ with this progr\
+am.  If not, see\
+ <http://www.gnu\
+.org/licenses/>.\
+\x0a*/\x0a\x0aimport QtQu\
+ick\x0aimport QtTes\
+t\x0a\x0a\x0aTestCase {\x0a \
+   id: testCase\x0a\
+\x0a    name: \x22Pyno\
+cchioLanguageMod\
+elTest\x22\x0a\x0a    Com\
+ponent {\x0a       \
+ id: objectUnder\
+Test\x0a\x0a        Py\
+nocchioLanguageM\
+odel {}\x0a    }\x0a\x0a \
+   function extr\
+actLanguagesFrom\
+(model: Pynocchi\
+oLanguageModel):\
+ Array<string> {\
+\x0a        const l\
+anguages = []\x0a  \
+      for (let i\
+ = 0; i < model.\
+count; i++) {\x0a  \
+          langua\
+ges.push(model.g\
+et(i).abbrev)\x0a  \
+      }\x0a        \
+return languages\
+\x0a    }\x0a\x0a    func\
+tion test_langua\
+geExists_data() \
+{\x0a        return\
+ [\x0a            {\
+tag: 'de_DE', ab\
+brev: 'de_DE'},\x0a\
+            {tag\
+: 'en_US', abbre\
+v: 'en_US'},\x0a   \
+     ]\x0a    }\x0a\x0a  \
+  function test_\
+languageExists(d\
+ata) {\x0a        c\
+onst control = c\
+reateTemporaryOb\
+ject(objectUnder\
+Test, testCase)\x0a\
+        verify(c\
+ontrol)\x0a\x0a       \
+ const languages\
+ = extractLangua\
+gesFrom(control)\
+\x0a        verify(\
+languages.includ\
+es(data.abbrev))\
+\x0a    }\x0a\x0a    func\
+tion test_langua\
+geDoesNotExist()\
+ {\x0a        const\
+ control = creat\
+eTemporaryObject\
+(objectUnderTest\
+, testCase)\x0a    \
+    verify(contr\
+ol)\x0a\x0a        con\
+st languages = e\
+xtractLanguagesF\
+rom(control)\x0a   \
+     verify(!lan\
+guages.includes(\
+'something-else'\
+))\x0a    }\x0a\x0a}\x0a\
+\x00\x00\x003\
+q\
+mldir app\x0aPynocc\
+hioMainPage Pyno\
+cchioMainPage.qm\
+l\x0a\
+\x00\x00\x09\x8f\
+/\
+*\x0aCopyright\x0a\x0aThi\
+s program is fre\
+e software: you \
+can redistribute\
+ it and/or modif\
+y\x0ait under the t\
+erms of the GNU \
+General Public L\
+icense as publis\
+hed by\x0athe Free \
+Software Foundat\
+ion, either vers\
+ion 3 of the Lic\
+ense, or\x0a(at you\
+r option) any la\
+ter version.\x0a\x0aTh\
+is program is di\
+stributed in the\
+ hope that it wi\
+ll be useful,\x0abu\
+t WITHOUT ANY WA\
+RRANTY; without \
+even the implied\
+ warranty of\x0aMER\
+CHANTABILITY or \
+FITNESS FOR A PA\
+RTICULAR PURPOSE\
+.  See the\x0aGNU G\
+eneral Public Li\
+cense for more d\
+etails.\x0a\x0aYou sho\
+uld have receive\
+d a copy of the \
+GNU General Publ\
+ic License\x0aalong\
+ with this progr\
+am.  If not, see\
+ <http://www.gnu\
+.org/licenses/>.\
+\x0a*/\x0a\x0aimport QtQu\
+ick\x0aimport QtQui\
+ck.Controls\x0aimpo\
+rt QtQuick.Layou\
+ts\x0a\x0aimport heade\
+r\x0aimport pyobjec\
+ts\x0a\x0a\x0aPage {\x0a    \
+id: root\x0a\x0a    re\
+quired property \
+var appWindow\x0a\x0a \
+   anchors {\x0a   \
+     fill: root\x0a\
+    }\x0a\x0a    heade\
+r: PynocchioHead\
+er {\x0a        app\
+Window: root.app\
+Window\x0a    }\x0a\x0a  \
+  ColumnLayout {\
+\x0a        spacing\
+: 8\x0a        widt\
+h: root.width\x0a\x0a \
+       //Image {\
+\x0a        //    s\
+ource: \x22qrc:/dat\
+a/app-icon.svg\x22\x0a\
+        //    as\
+ynchronous: true\
+\x0a        //\x0a    \
+    //    Layout\
+.alignment: Qt.A\
+lignHCenter\x0a    \
+    //    Layout\
+.preferredWidth:\
+ 308\x0a        // \
+   Layout.prefer\
+redHeight: 226\x0a \
+       //    Lay\
+out.topMargin: 3\
+0\x0a        //}\x0a\x0a \
+       //Label {\
+\x0a        //    t\
+ext: Qt.applicat\
+ion.name + ' (' \
++ Qt.application\
+.version + ')'\x0a \
+       //\x0a      \
+  //    font {\x0a \
+       //       \
+ bold: true\x0a    \
+    //        pi\
+xelSize: Qt.appl\
+ication.font.pix\
+elSize * 1.5\x0a   \
+     //    }\x0a   \
+     //\x0a        \
+//    Layout.ali\
+gnment: Qt.Align\
+HCenter\x0a        \
+//    Layout.top\
+Margin: 45\x0a     \
+   //}\x0a\x0a        \
+Label {\x0a        \
+    text: 'Runni\
+ng on ' + Qt.pla\
+tform.os\x0a\x0a      \
+      font {\x0a   \
+             bol\
+d: true\x0a        \
+        pixelSiz\
+e: Qt.applicatio\
+n.font.pixelSize\
+ * 1.5\x0a         \
+   }\x0a\x0a          \
+  Layout.alignme\
+nt: Qt.AlignHCen\
+ter\x0a        }\x0a\x0a \
+       //Label {\
+\x0a        //    t\
+ext: qsTranslate\
+(\x22MainPage\x22, \x22Ha\
+ve fun!\x22)\x0a      \
+  //    color: M\
+aterial.accent\x0a \
+       //\x0a      \
+  //    font {\x0a \
+       //       \
+ bold: true\x0a    \
+    //        pi\
+xelSize: Qt.appl\
+ication.font.pix\
+elSize * 1.5\x0a   \
+     //    }\x0a   \
+     //\x0a        \
+//    Layout.ali\
+gnment: Qt.Align\
+HCenter\x0a        \
+//    Layout.top\
+Margin: 45\x0a     \
+   //}\x0a\x0a        \
+//Label {\x0a      \
+  //    text: qs\
+Translate(\x22MainP\
+age\x22, \x22Exposed f\
+rom Python: '%1'\
+\x22).arg(Singleton\
+PyObject.exposed\
+_property)\x0a     \
+   //\x0a        //\
+    Layout.align\
+ment: Qt.AlignHC\
+enter\x0a        //\
+    Layout.topMa\
+rgin: 45\x0a       \
+ //}\x0a    }\x0a\x0a}\x0a\
+\x00\x00\x05\x98\
+/\
+*\x0aCopyright\x0a\x0aThi\
+s program is fre\
+e software: you \
+can redistribute\
+ it and/or modif\
+y\x0ait under the t\
+erms of the GNU \
+General Public L\
+icense as publis\
+hed by\x0athe Free \
+Software Foundat\
+ion, either vers\
+ion 3 of the Lic\
+ense, or\x0a(at you\
+r option) any la\
+ter version.\x0a\x0aTh\
+is program is di\
+stributed in the\
+ hope that it wi\
+ll be useful,\x0abu\
+t WITHOUT ANY WA\
+RRANTY; without \
+even the implied\
+ warranty of\x0aMER\
+CHANTABILITY or \
+FITNESS FOR A PA\
+RTICULAR PURPOSE\
+.  See the\x0aGNU G\
+eneral Public Li\
+cense for more d\
+etails.\x0a\x0aYou sho\
+uld have receive\
+d a copy of the \
+GNU General Publ\
+ic License\x0aalong\
+ with this progr\
+am.  If not, see\
+ <http://www.gnu\
+.org/licenses/>.\
+\x0a*/\x0a\x0aimport QtQu\
+ick\x0aimport QtQui\
+ck.Controls\x0a\x0a\x0aMe\
+nu {\x0a    id: roo\
+t\x0a\x0a    /*\x0a    Ta\
+ken and adapted \
+from:\x0a    https:\
+//martin.rpdev.n\
+et/2018/03/13/qt\
+-quick-controls-\
+2-automatically-\
+set-the-width-of\
+-menus.html\x0a    \
+*/\x0a\x0a    readonly\
+ property bool m\
+Mirrored: count \
+> 0 && itemAt(0)\
+.mirrored\x0a\x0a    x\
+: mMirrored ? -w\
+idth + parent.wi\
+dth : 0\x0a\x0a    wid\
+th: {\x0a        le\
+t result = 0\x0a   \
+     let padding\
+ = 0\x0a        for\
+ (let i = 0; i <\
+ root.count; ++i\
+) {\x0a            \
+let item = root.\
+itemAt(i)\x0a\x0a     \
+       if (!isMe\
+nuSeparator(item\
+)) {\x0a           \
+     result = Ma\
+th.max(item.cont\
+entItem.implicit\
+Width, result)\x0a \
+               p\
+adding = Math.ma\
+x(item.padding, \
+padding)\x0a       \
+     }\x0a        }\
+\x0a        return \
+result + padding\
+ * 2\x0a    }\x0a\x0a    \
+function isMenuS\
+eparator(item) {\
+\x0a        return \
+item instanceof \
+MenuSeparator\x0a  \
+  }\x0a\x0a}\x0a\
+\x00\x00\x00K\
+m\
+odule components\
+.shared\x0aPynocchi\
+oAutoWidthMenu P\
+ynocchioAutoWidt\
+hMenu.qml\x0a\
+"
+
+qt_resource_name = b"\
+\x00\x03\
+\x00\x00x<\
+\x00q\
+\x00m\x00l\
+\x00\x04\
+\x00\x06\xa8\xa1\
+\x00d\
+\x00a\x00t\x00a\
+\x00\x04\
+\x00\x06\xc4\xee\
+\x00i\
+\x001\x008\x00n\
+\x00\x08\
+\x0b=\xf8\xbd\
+\x00h\
+\x00e\x00_\x00I\x00L\x00.\x00q\x00m\
+\x00\x08\
+\x0b8\x88=\
+\x00d\
+\x00e\x00_\x00D\x00E\x00.\x00q\x00m\
+\x00\x05\
+\x00o\xa6S\
+\x00i\
+\x00c\x00o\x00n\x00s\
+\x00\x0c\
+\x07o='\
+\x00a\
+\x00p\x00p\x00-\x00i\x00c\x00o\x00n\x00.\x00s\x00v\x00g\
+\x00\x15\
+\x08\x1e\x16f\
+\x00q\
+\x00t\x00q\x00u\x00i\x00c\x00k\x00c\x00o\x00n\x00t\x00r\x00o\x00l\x00s\x002\x00.\
+\x00c\x00o\x00n\x00f\
+\x00\x14\
+\x03\xe9\x9d'\
+\x00c\
+\x00l\x00o\x00s\x00e\x00_\x00b\x00l\x00a\x00c\x00k\x00_\x002\x004\x00d\x00p\x00.\
+\x00s\x00v\x00g\
+\x00\x17\
+\x0d\xa5\x80\x07\
+\x00m\
+\x00i\x00n\x00i\x00m\x00i\x00z\x00e\x00_\x00b\x00l\x00a\x00c\x00k\x00_\x002\x004\
+\x00d\x00p\x00.\x00s\x00v\x00g\
+\x00\x1b\
+\x0bil\x07\
+\x00o\
+\x00p\x00e\x00n\x00_\x00i\x00n\x00_\x00f\x00u\x00l\x00l\x00_\x00b\x00l\x00a\x00c\
+\x00k\x00_\x002\x004\x00d\x00p\x00.\x00s\x00v\x00g\
+\x00\x1f\
+\x03\xe6\x1d\xe7\
+\x00c\
+\x00l\x00o\x00s\x00e\x00_\x00f\x00u\x00l\x00l\x00s\x00c\x00r\x00e\x00e\x00n\x00_\
+\x00b\x00l\x00a\x00c\x00k\x00_\x002\x004\x00d\x00p\x00.\x00s\x00v\x00g\
+\x00\x06\
+\x07\x9e\x88\xb4\
+\x00s\
+\x00h\x00a\x00r\x00e\x00d\
+\x00\x03\
+\x00\x00hp\
+\x00a\
+\x00p\x00p\
+\x00\x06\
+\x07E\xac3\
+\x00m\
+\x00o\x00d\x00e\x00l\x00s\
+\x00\x08\
+\x08\x01Z\x5c\
+\x00m\
+\x00a\x00i\x00n\x00.\x00q\x00m\x00l\
+\x00\x06\
+\x06\xebz\xc2\
+\x00h\
+\x00e\x00a\x00d\x00e\x00r\
+\x00\x13\
+\x04\xd7\xe6|\
+\x00P\
+\x00y\x00n\x00o\x00c\x00c\x00h\x00i\x00o\x00H\x00e\x00a\x00d\x00e\x00r\x00.\x00q\
+\x00m\x00l\
+\x00\x15\
+\x0a\xe4\x82|\
+\x00P\
+\x00y\x00n\x00o\x00c\x00c\x00h\x00i\x00o\x00H\x00e\x00l\x00p\x00M\x00e\x00n\x00u\
+\x00.\x00q\x00m\x00l\
+\x00\x15\
+\x0d4[\x9c\
+\x00P\
+\x00y\x00n\x00o\x00c\x00c\x00h\x00i\x00o\x00M\x00e\x00n\x00u\x00F\x00i\x00l\x00e\
+\x00.\x00q\x00m\x00l\
+\x00\x1a\
+\x02\xdcV\x5c\
+\x00P\
+\x00y\x00n\x00o\x00c\x00c\x00h\x00i\x00o\x00H\x00e\x00a\x00d\x00e\x00r\x00C\x00o\
+\x00n\x00t\x00e\x00n\x00t\x00.\x00q\x00m\x00l\
+\x00\x18\
+\x06\x1aM<\
+\x00P\
+\x00y\x00n\x00o\x00c\x00c\x00h\x00i\x00o\x00O\x00p\x00t\x00i\x00o\x00n\x00s\x00M\
+\x00e\x00n\x00u\x00.\x00q\x00m\x00l\
+\x00\x06\
+\x07\x84+\x02\
+\x00q\
+\x00m\x00l\x00d\x00i\x00r\
+\x00\x1a\
+\x0e\xe1\x94\xbc\
+\x00P\
+\x00y\x00n\x00o\x00c\x00c\x00h\x00i\x00o\x00L\x00a\x00n\x00g\x00u\x00a\x00g\x00e\
+\x00M\x00o\x00d\x00e\x00l\x00.\x00q\x00m\x00l\
+\x00\x1e\
+\x06K\xb7|\
+\x00t\
+\x00s\x00t\x00_\x00P\x00y\x00n\x00o\x00c\x00c\x00h\x00i\x00o\x00L\x00a\x00n\x00g\
+\x00u\x00a\x00g\x00e\x00M\x00o\x00d\x00e\x00l\x00.\x00q\x00m\x00l\
+\x00\x15\
+\x02\xdf\xee\xdc\
+\x00P\
+\x00y\x00n\x00o\x00c\x00c\x00h\x00i\x00o\x00M\x00a\x00i\x00n\x00P\x00a\x00g\x00e\
+\x00.\x00q\x00m\x00l\
+\x00\x1a\
+\x05\xf0\xb8\xfc\
+\x00P\
+\x00y\x00n\x00o\x00c\x00c\x00h\x00i\x00o\x00A\x00u\x00t\x00o\x00W\x00i\x00d\x00t\
+\x00h\x00M\x00e\x00n\x00u\x00.\x00q\x00m\x00l\
+"
+
+qt_resource_struct = b"\
+\x00\x00\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00\x01\
+\x00\x00\x00\x00\x00\x00\x00\x00\
+\x00\x00\x00\x00\x00\x02\x00\x00\x00\x05\x00\x00\x00\x0d\
+\x00\x00\x00\x00\x00\x00\x00\x00\
+\x00\x00\x00\x0c\x00\x02\x00\x00\x00\x03\x00\x00\x00\x06\
+\x00\x00\x00\x00\x00\x00\x00\x00\
+\x00\x00\x00\x1a\x00\x02\x00\x00\x00\x02\x00\x00\x00\x04\
+\x00\x00\x00\x00\x00\x00\x00\x00\
+\x00\x00\x00>\x00\x00\x00\x00\x00\x01\x00\x00\x01$\
+\x00\x00\x01\x93\x12\x90b\xf2\
+\x00\x00\x00(\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\
+\x00\x00\x01\x93\x12\x90b\xf2\
+\x00\x00\x00T\x00\x02\x00\x00\x00\x04\x00\x00\x00\x09\
+\x00\x00\x00\x00\x00\x00\x00\x00\
+\x00\x00\x00d\x00\x00\x00\x00\x00\x01\x00\x00\x02J\
+\x00\x00\x01\x93\x12\x90b\xf1\
+\x00\x00\x00\x82\x00\x00\x00\x00\x00\x01\x00\x00\x11f\
+\x00\x00\x01\x93\x12\x90b\xf1\
+\x00\x00\x01P\x00\x00\x00\x00\x00\x01\x00\x00\x14\x99\
+\x00\x00\x01\x93\x12\x90b\xf1\
+\x00\x00\x00\xb2\x00\x00\x00\x00\x00\x01\x00\x00\x11\xbb\
+\x00\x00\x01\x93\x12\x90b\xf1\
+\x00\x00\x01\x14\x00\x00\x00\x00\x00\x01\x00\x00\x13~\
+\x00\x00\x01\x93\x12\x90b\xf1\
+\x00\x00\x00\xe0\x00\x00\x00\x00\x00\x01\x00\x00\x12\xcb\
+\x00\x00\x01\x93\x12\x90b\xf1\
+\x00\x00\x01\xa6\x00\x02\x00\x00\x00\x02\x00\x00\x00\x1d\
+\x00\x00\x00\x00\x00\x00\x00\x00\
+\x00\x00\x01\xda\x00\x02\x00\x00\x00\x06\x00\x00\x00\x17\
+\x00\x00\x00\x00\x00\x00\x00\x00\
+\x00\x00\x01\xb2\x00\x02\x00\x00\x00\x03\x00\x00\x00\x14\
+\x00\x00\x00\x00\x00\x00\x00\x00\
+\x00\x00\x01\x94\x00\x02\x00\x00\x00\x02\x00\x00\x00\x12\
+\x00\x00\x00\x00\x00\x00\x00\x00\
+\x00\x00\x01\xc4\x00\x00\x00\x00\x00\x01\x00\x00\x15\xd3\
+\x00\x00\x01\x93\x12\x90b\xf1\
+\x00\x00\x03\xa6\x00\x00\x00\x00\x00\x01\x00\x00Pk\
+\x00\x00\x01\x93\x12\x90b\xf1\
+\x00\x00\x02\xe8\x00\x00\x00\x00\x00\x01\x00\x00V\x07\
+\x00\x00\x01\x93\x12\x90b\xf1\
+\x00\x00\x034\x00\x00\x00\x00\x00\x01\x00\x00?\xd0\
+\x00\x00\x01\x93\x12\x90b\xf1\
+\x00\x00\x02\xe8\x00\x00\x00\x00\x00\x01\x00\x00?\x8c\
+\x00\x00\x01\x93\x12\x90b\xf1\
+\x00\x00\x02\xfa\x00\x00\x00\x00\x00\x01\x00\x00;\xc3\
+\x00\x00\x01\x93\x12\x90b\xf1\
+\x00\x00\x02x\x00\x04\x00\x00\x00\x01\x00\x00.\x8c\
+\x00\x00\x01\x93\x12\x90b\xf1\
+\x00\x00\x01\xec\x00\x00\x00\x00\x00\x01\x00\x00\x1d\xf0\
+\x00\x00\x01\x93\x12\x90b\xf1\
+\x00\x00\x02\xb2\x00\x00\x00\x00\x00\x01\x00\x002\xb8\
+\x00\x00\x01\x93\x12\x90b\xf1\
+\x00\x00\x02\xe8\x00\x00\x00\x00\x00\x01\x00\x00;\x8d\
+\x00\x00\x01\x93\x12\x90b\xf1\
+\x00\x00\x02\x18\x00\x00\x00\x00\x00\x01\x00\x00#\x9e\
+\x00\x00\x01\x93\x12\x90b\xf1\
+\x00\x00\x02H\x00\x00\x00\x00\x00\x01\x00\x00(~\
+\x00\x00\x01\x93\x12\x90b\xf1\
+\x00\x00\x03v\x00\x00\x00\x00\x00\x01\x00\x00F\xd8\
+\x00\x00\x01\x93\x12\x90b\xf1\
+\x00\x00\x02\xe8\x00\x00\x00\x00\x00\x01\x00\x00F\xa1\
+\x00\x00\x01\x93\x12\x90b\xf1\
+"
+
+def qInitResources():
+    QtCore.qRegisterResourceData(0x03, qt_resource_struct, qt_resource_name, qt_resource_data)
+
+def qCleanupResources():
+    QtCore.qUnregisterResourceData(0x03, qt_resource_struct, qt_resource_name, qt_resource_data)
+
+qInitResources()

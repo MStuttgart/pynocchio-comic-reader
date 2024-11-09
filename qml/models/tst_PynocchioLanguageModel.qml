@@ -22,15 +22,15 @@ import QtTest
 TestCase {
     id: testCase
 
-    name: "MyAppLanguageModelTest"
+    name: "PynocchioLanguageModelTest"
 
     Component {
         id: objectUnderTest
 
-        MyAppLanguageModel {}
+        PynocchioLanguageModel {}
     }
 
-    function extractLanguagesFrom(model: MyAppLanguageModel): Array<string> {
+    function extractLanguagesFrom(model: PynocchioLanguageModel): Array<string> {
         const languages = []
         for (let i = 0; i < model.count; i++) {
             languages.push(model.get(i).abbrev)
@@ -42,7 +42,6 @@ TestCase {
         return [
             {tag: 'de_DE', abbrev: 'de_DE'},
             {tag: 'en_US', abbrev: 'en_US'},
-            {tag: 'he_IL', abbrev: 'he_IL'},
         ]
     }
 

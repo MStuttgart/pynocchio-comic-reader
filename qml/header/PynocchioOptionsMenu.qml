@@ -23,16 +23,16 @@ import shared
 import models
 
 
-MyAppAutoWidthMenu {
+PynocchioAutoWidthMenu {
     id: root
 
     title: qsTranslate("HeaderBar", "&Options")
 
-    MyAppAutoWidthMenu {
+    PynocchioAutoWidthMenu {
         title: qsTranslate("HeaderBar", "&Language")
 
         Repeater {
-            model: MyAppLanguageModel {}
+            model: PynocchioLanguageModel {}
 
             MenuItem {
                 id: _itemDelegate

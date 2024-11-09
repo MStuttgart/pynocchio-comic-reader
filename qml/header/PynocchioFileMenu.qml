@@ -16,37 +16,31 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 import QtQuick.Controls
-
+import QtCore
 import shared
 
+PynocchioAutoWidthMenu {
 
-MyAppAutoWidthMenu {
-    title: qsTranslate("HeaderBar", "&Help")
-
-    Action {
-        text: qsTranslate("HeaderBar", "&Action 1")
-        shortcut: "CTRL+N"
-
-        onTriggered: {
-            console.log("Action 1 pressed")
-        }
-    }
+    title: qsTranslate("HeaderBar", "&File")
 
     Action {
-        text: qsTranslate("HeaderBar", "&Action 2")
-
+        id: openAction
+        text: qsTranslate("HeaderBar", "&Open")
+        shortcut: StandardKey.Open
         onTriggered: {
-            console.log("Action 2 pressed")
+            console.log("Open Pressed")
+            openDialog.open()
         }
     }
 
     MenuSeparator { }
 
     Action {
-        text: qsTranslate("HeaderBar", "&Action 3")
+        text: qsTranslate("HeaderBar", "&Exit")
 
         onTriggered: {
-            console.log("Action 3 pressed")
+            console.log("Exit")
+            root.appWindow.close()
         }
     }
 

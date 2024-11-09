@@ -9,7 +9,7 @@
 * New `<locale>.ts` file appears in the `i18n` directory
 * Translate the `ts` file using Qt Linguist 6
 * To test the translation:
-  * Add a new entry in the `MyAppLanguageModel.qml` file
+  * Add a new entry in the `PynocchioLanguageModel.qml` file
   * Run
     ```shell
     just build-develop

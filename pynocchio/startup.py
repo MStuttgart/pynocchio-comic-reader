@@ -17,37 +17,38 @@
 import os
 import sys
 
+from PySide6.QtCore import QCoreApplication
+
+from pynocchio.application import PynocchioApplication
+
 
 class StartUp:
     """Necessary steps for environment, Python and Qt"""
 
     @staticmethod
     def configure_qt_application_data():
-        from PySide6.QtCore import QCoreApplication
-        QCoreApplication.setApplicationName('my app name')
-        QCoreApplication.setOrganizationName('my org name')
-        QCoreApplication.setApplicationVersion('my app version')
+        QCoreApplication.setApplicationName("Pynocchio")
+        QCoreApplication.setOrganizationName("Pynocchio")
+        QCoreApplication.setApplicationVersion("4.0.0")
 
     @staticmethod
     def configure_environment_variables():
         # Qt expects 'qtquickcontrols2.conf' at root level, but the way we handle resources does not allow that.
         # So we need to override the path here
-        os.environ['QT_QUICK_CONTROLS_CONF'] = ':/data/qtquickcontrols2.conf'
+        os.environ["QT_QUICK_CONTROLS_CONF"] = ":/data/qtquickcontrols2.conf"
 
     @staticmethod
     def import_resources():
-        # noinspection PyUnresolvedReferences
-        import myapp.generated_resources
+        import pynocchio.generated_resources
 
     @staticmethod
     def import_bindings():
-        # noinspection PyUnresolvedReferences
-        import myapp.pyobjects
+        import pynocchio.pyobjects
+        import pynocchio.bridge_obj
 
     @staticmethod
     def start_application():
-        from myapp.application import MyApplication
-        app = MyApplication(sys.argv)
+        app = PynocchioApplication(sys.argv)
 
         app.set_window_icon()
         app.set_up_signals()

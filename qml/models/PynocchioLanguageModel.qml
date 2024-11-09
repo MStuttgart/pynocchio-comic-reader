@@ -15,39 +15,21 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-import QtQuick.Controls
-
-import shared
+import QtQuick
 
 
-MyAppAutoWidthMenu {
-    title: qsTranslate("HeaderBar", "&Menu 2")
+ListModel {
+    readonly property var languagesForTranslationTool: [
+        qsTranslate("Languages", "English"),
+        qsTranslate("Languages", "German"),
+    ]
 
-    Action {
-        text: qsTranslate("HeaderBar", "&Action 1")
-        shortcut: "CTRL+N"
-
-        onTriggered: {
-            console.log("Action 1 pressed")
-        }
+    ListElement {
+        language: "English"
+        abbrev: "en_US"
     }
-
-    Action {
-        text: qsTranslate("HeaderBar", "&Action 2")
-
-        onTriggered: {
-            console.log("Action 2 pressed")
-        }
+    ListElement {
+        language: "German"
+        abbrev: "de_DE"
     }
-
-    MenuSeparator { }
-
-    Action {
-        text: qsTranslate("HeaderBar", "&Action 3")
-
-        onTriggered: {
-            console.log("Action 3 pressed")
-        }
-    }
-
 }

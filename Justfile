@@ -13,7 +13,8 @@
 # You should have received a copy of the GNU Lesser General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-PYTHON_DIR := invocation_directory() + '/' + if os_family() == 'windows' { '.venv/Scripts' } else { '.venv/bin' }
+PYTHON_VENV_DIR := '.venv'
+PYTHON_DIR := invocation_directory() + '/' + if os_family() == 'windows' { PYTHON_VENV_DIR + '/Scripts' } else { PYTHON_VENV_DIR + '/bin' }
 PYTHON := PYTHON_DIR + if os_family() == 'windows' { '/python.exe' } else { '/python3' }
 
 #
@@ -33,12 +34,12 @@ export QT_QUICK_CONTROLS_MATERIAL_VARIANT := 'dense'
 ##### Names #####
 #####      #####
 
-NAME_APPLICATION := 'myapp'
+NAME_APPLICATION := 'pynocchio'
 NAME_DIRECTORY_BUILD := 'build'
 NAME_DIRECTORY_BUILD_HELPERS := 'build-aux'
 NAME_DIRECTORY_DATA := 'data'
 NAME_DIRECTORY_I18N := 'i18n'
-NAME_DIRECTORY_PY_SOURCES := 'myapp'
+NAME_DIRECTORY_PY_SOURCES := 'pynocchio'
 NAME_DIRECTORY_PY_TESTS := 'test'
 NAME_DIRECTORY_QML_SOURCES := 'qml'
 NAME_DIRECTORY_QML_TESTS := 'qml'

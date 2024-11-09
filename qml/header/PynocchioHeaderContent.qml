@@ -38,10 +38,9 @@ Item {
                 color: "transparent"
             }
 
-            MyAppMenu1 {}
-            MyAppMenu2 {}
-            MyAppOptionsMenu {}
-            MyAppHelpMenu {}
+            PynocchioFileMenu {}
+            PynocchioOptionsMenu {}
+            PynocchioHelpMenu {}
         }
 
         Label {

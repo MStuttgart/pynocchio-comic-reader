@@ -1,2 +1,2 @@
 module components.shared
-MyAppAutoWidthMenu MyAppAutoWidthMenu.qml
+PynocchioAutoWidthMenu PynocchioAutoWidthMenu.qml

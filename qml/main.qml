@@ -17,9 +17,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import QtQuick
 import QtQuick.Controls
-
+import QtCore
+import QtQuick.Dialogs
 import app
 
+import bridge
 
 ApplicationWindow {
     id: root
@@ -28,11 +30,17 @@ ApplicationWindow {
     height: 720
     flags: Qt.FramelessWindowHint | Qt.Window
     visible: true
+    Material.theme: Material.Dark
+    Material.accent: Material.Red
 
     LayoutMirroring.enabled: Qt.application.layoutDirection === Qt.RightToLeft
     LayoutMirroring.childrenInherit: true
 
-    MyAppMainPage {
+    Bridge {
+      id: bridge
+    }
+
+    PynocchioMainPage {
         appWindow: _shared
 
         anchors {
@@ -79,5 +87,21 @@ ApplicationWindow {
             root.close()
         }
     }
+
+
+
+    FileDialog {
+      id: openDialog
+      fileMode: FileDialog.OpenFile
+      selectedNameFilter.index: 0
+      nameFilters: ["Comic Files (*.cbr *.cbz)", "Compact files (*.zip *.rar)"]
+      currentFolder: StandardPaths.writableLocation(StandardPaths.HomeLocation)
+      onAccepted: {
+        //console.log(fileDialog.fileUrls)
+        bridge.openComic(selectedFile)
+      }
+    }
+
+
 
 }

@@ -15,26 +15,30 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-import QtQuick
+import QtQuick.Controls
+
+import shared
 
 
-ListModel {
-    readonly property var languagesForTranslationTool: [
-        qsTranslate("Languages", "English"),
-        qsTranslate("Languages", "German"),
-        qsTranslate("Languages", "Hebrew"),
-    ]
+PynocchioAutoWidthMenu {
+    title: qsTranslate("HeaderBar", "&Help")
 
-    ListElement {
-        language: "English"
-        abbrev: "en_US"
+    Action {
+        text: qsTranslate("HeaderBar", "&Report a bug")
+
+        onTriggered: {
+            console.log("Action about pressed")
+        }
     }
-    ListElement {
-        language: "German"
-        abbrev: "de_DE"
+
+    MenuSeparator { }
+
+    Action {
+        text: qsTranslate("HeaderBar", "&About Pynocchio")
+
+        onTriggered: {
+            console.log("Action 3 pressed")
+        }
     }
-    ListElement {
-        language: "Hebrew"
-        abbrev: "he_IL"
-    }
+
 }

@@ -51,7 +51,7 @@ Item {
         }
     }
 
-    MyAppHeaderContent {
+    PynocchioHeaderContent {
         id: headerBar
 
         appWindow: root.appWindow
