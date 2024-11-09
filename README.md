@@ -9,10 +9,6 @@
 </h1>
 
 <h4 align="center">A minimalist comic reader</h4>
-<h4 align="center">⚠️ This project is no longer maintained ⚠️</h4>
-<p align="center">
-Thank you for your attention and support but this project is no longer supported and is currently archived.
-</p>
 
 <p align="center">
   <a href="https://travis-ci.org/mstuttgart/pynocchio">
