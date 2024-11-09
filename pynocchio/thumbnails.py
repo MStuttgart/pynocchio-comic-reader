@@ -50,7 +50,7 @@ class ThumbnailsDock(QtWidgets.QDockWidget):
             if my_key != self.lock:
                 return
 
-            pix_map = p.pix_map
+            pix_map = p.pixmap
             pix_map = pix_map.scaled(self.thumb_size, QtCore.Qt.KeepAspectRatio, QtCore.Qt.SmoothTransformation)
 
             w = self.thumb_widget(pix_map, i)
