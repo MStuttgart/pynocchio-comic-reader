@@ -179,35 +179,51 @@ class MainWindowModel(QtCore.QObject):
         w = self.scroll_area_size.width()
 
         if self.fit_type == MainWindowModel._VERTICAL_FIT:
-            f = h / height
-            if int(f * width) > w:
-                h -= self.scroll_bar_size
+
+            try:
+
                 f = h / height
-                if int(f * width) < w:
-                    f = w / width
-                    h = int(f * height)
-            if self.resize_always or h < height:
-                pix_map = pix_map.scaledToHeight(h, QtCore.Qt.SmoothTransformation)
+
+                if int(f * width) > w:
+                    h -= self.scroll_bar_size
+                    f = h / height
+                    if int(f * width) < w:
+                        f = w / width
+                        h = int(f * height)
+
+                if self.resize_always or h < height:
+                    pix_map = pix_map.scaledToHeight(int(h), QtCore.Qt.SmoothTransformation)
+
+            except ZeroDivisionError as exec:
+                logging.info(exec)
 
         elif self.fit_type == MainWindowModel._HORIZONTAL_FIT:
-            f = w / width
-            if int(f * height) > h:
-                w -= self.scroll_bar_size
+
+            try:
+
                 f = w / width
-                if int(f * height) < h:
-                    f = h / height
-                    w = int(f * width)
-            if self.resize_always or w < width:
-                pix_map = pix_map.scaledToWidth(w, QtCore.Qt.SmoothTransformation)
+
+                if int(f * height) > h:
+                    w -= self.scroll_bar_size
+                    f = w / width
+                    if int(f * height) < h:
+                        f = h / height
+                        w = int(f * width)
+
+                if self.resize_always or w < width:
+                    pix_map = pix_map.scaledToWidth(int(w), QtCore.Qt.SmoothTransformation)
+
+            except ZeroDivisionError as exec:
+                logging.info(exec)
 
         elif self.fit_type == MainWindowModel._BEST_FIT:
             w *= 0.8
-            if self.resize_always or w < width:
-                pix_map = pix_map.scaledToWidth(w, QtCore.Qt.SmoothTransformation)
 
-        elif self.fit_type == MainWindowModel._PAGE_FIT:
-            if self.resize_always or w < width or h < height:
-                pix_map = pix_map.scaled(w, h, QtCore.Qt.KeepAspectRatio, QtCore.Qt.SmoothTransformation)
+            if self.resize_always or w < width:
+                pix_map = pix_map.scaledToWidth(int(w), QtCore.Qt.SmoothTransformation)
+
+        elif self.fit_type == MainWindowModel._PAGE_FIT and (self.resize_always or w < width or h < height):
+            pix_map = pix_map.scaled(int(w), int(h), QtCore.Qt.KeepAspectRatio, QtCore.Qt.SmoothTransformation)
 
         pix_map.original_width = width
         pix_map.original_height = height
