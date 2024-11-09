@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <author>Michell Stuttgart</author>
+ <class>MainWindowView</class>
+ <widget class="QMainWindow" name="MainWindowView">
+  <property name="windowModality">
+   <enum>Qt::WindowModality::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1048</width>
+    <height>537</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>0</width>
+    <height>3</height>
+   </size>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::FocusPolicy::WheelFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Pynocchio</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/others/pynocchio.png</normaloff>:/others/pynocchio.png</iconset>
+  </property>
+  <property name="accessibleName">
+   <string>Pynocchio</string>
+  </property>
+  <property name="accessibleDescription">
+   <string>The Best Comic Reader</string>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>22</width>
+    <height>22</height>
+   </size>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonStyle::ToolButtonIconOnly</enum>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::TabShape::Rounded</enum>
+  </property>
+  <property name="dockNestingEnabled">
+   <bool>false</bool>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>true</bool>
+  </property>
+  <widget class="QMenu" name="menu_context">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <addaction name="action_go_to_page"/>
+   <addaction name="separator"/>
+   <addaction name="action_rotate_left"/>
+   <addaction name="action_rotate_right"/>
+   <addaction name="separator"/>
+   <addaction name="action_page_fit"/>
+   <addaction name="action_original_fit"/>
+   <addaction name="action_vertical_fit"/>
+   <addaction name="action_horizontal_fit"/>
+   <addaction name="action_best_fit"/>
+   <addaction name="separator"/>
+   <addaction name="action_fullscreen"/>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1048</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="acceptDrops">
+    <bool>false</bool>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="defaultUp">
+    <bool>false</bool>
+   </property>
+   <widget class="QMenu" name="menu_file">
+    <property name="title">
+     <string>&amp;File</string>
+    </property>
+    <widget class="QMenu" name="menu_recent_files">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="tearOffEnabled">
+      <bool>false</bool>
+     </property>
+     <property name="title">
+      <string>&amp;Recent files</string>
+     </property>
+     <property name="separatorsCollapsible">
+      <bool>false</bool>
+     </property>
+     <addaction name="actionRecent_file_1"/>
+     <addaction name="actionRecent_file_2"/>
+     <addaction name="actionRecent_file_3"/>
+     <addaction name="actionRecent_file_4"/>
+     <addaction name="actionRecent_file_5"/>
+     <addaction name="actionRecent_file_6"/>
+     <addaction name="actionRecent_file_7"/>
+     <addaction name="actionRecent_file_8"/>
+     <addaction name="actionRecent_file_9"/>
+     <addaction name="actionRecent_file_10"/>
+    </widget>
+    <addaction name="action_open_file"/>
+    <addaction name="menu_recent_files"/>
+    <addaction name="separator"/>
+    <addaction name="action_save_image"/>
+    <addaction name="separator"/>
+    <addaction name="action_exit"/>
+   </widget>
+   <widget class="QMenu" name="menu_view">
+    <property name="title">
+     <string>&amp;View</string>
+    </property>
+    <addaction name="action_fullscreen"/>
+    <addaction name="separator"/>
+    <addaction name="action_page_fit"/>
+    <addaction name="action_original_fit"/>
+    <addaction name="action_vertical_fit"/>
+    <addaction name="action_horizontal_fit"/>
+    <addaction name="action_best_fit"/>
+    <addaction name="separator"/>
+    <addaction name="action_rotate_left"/>
+    <addaction name="action_rotate_right"/>
+    <addaction name="separator"/>
+    <addaction name="action_double_page_mode"/>
+    <addaction name="action_manga_mode"/>
+   </widget>
+   <widget class="QMenu" name="menu_navigation">
+    <property name="acceptDrops">
+     <bool>false</bool>
+    </property>
+    <property name="tearOffEnabled">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string>&amp;Navigation</string>
+    </property>
+    <addaction name="action_next_page"/>
+    <addaction name="action_previous_page"/>
+    <addaction name="separator"/>
+    <addaction name="action_first_page"/>
+    <addaction name="action_last_page"/>
+    <addaction name="separator"/>
+    <addaction name="action_go_to_page"/>
+    <addaction name="separator"/>
+    <addaction name="action_next_comic"/>
+    <addaction name="action_previous_comic"/>
+   </widget>
+   <widget class="QMenu" name="menu_help">
+    <property name="title">
+     <string>&amp;Help</string>
+    </property>
+    <addaction name="action_about"/>
+    <addaction name="action_about_qt"/>
+   </widget>
+   <widget class="QMenu" name="menu_settings">
+    <property name="title">
+     <string>&amp;Settings</string>
+    </property>
+    <addaction name="action_show_toolbar"/>
+    <addaction name="action_show_statusbar"/>
+    <addaction name="action_show_thumbnails"/>
+    <addaction name="action_shrink_only"/>
+    <addaction name="action_page_across_files"/>
+    <addaction name="action_dark_style"/>
+    <addaction name="separator"/>
+    <addaction name="action_preference_dialog"/>
+   </widget>
+   <widget class="QMenu" name="menu_bookmarks">
+    <property name="tearOffEnabled">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string>&amp;Bookmarks</string>
+    </property>
+    <property name="separatorsCollapsible">
+     <bool>true</bool>
+    </property>
+    <widget class="QMenu" name="menu_recent_bookmarks">
+     <property name="title">
+      <string>R&amp;ecent bookmarks</string>
+     </property>
+     <addaction name="actionRecent_bookmark_1"/>
+     <addaction name="actionRecent_bookmark_2"/>
+     <addaction name="actionRecent_bookmark_3"/>
+     <addaction name="actionRecent_bookmark_4"/>
+     <addaction name="actionRecent_bookmark_5"/>
+    </widget>
+    <addaction name="action_add_bookmark"/>
+    <addaction name="action_remove_bookmark"/>
+    <addaction name="separator"/>
+    <addaction name="action_bookmark_manager"/>
+    <addaction name="menu_recent_bookmarks"/>
+   </widget>
+   <addaction name="menu_file"/>
+   <addaction name="menu_view"/>
+   <addaction name="menu_navigation"/>
+   <addaction name="menu_bookmarks"/>
+   <addaction name="menu_settings"/>
+   <addaction name="menu_help"/>
+  </widget>
+  <widget class="QToolBar" name="toolbar">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::FocusPolicy::ClickFocus</enum>
+   </property>
+   <property name="acceptDrops">
+    <bool>true</bool>
+   </property>
+   <property name="windowTitle">
+    <string>toolbar</string>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonStyle::ToolButtonIconOnly</enum>
+   </property>
+   <property name="floatable">
+    <bool>false</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_open_file"/>
+   <addaction name="separator"/>
+   <addaction name="action_previous_comic"/>
+   <addaction name="action_first_page"/>
+   <addaction name="action_previous_page"/>
+   <addaction name="action_next_page"/>
+   <addaction name="action_last_page"/>
+   <addaction name="action_next_comic"/>
+   <addaction name="separator"/>
+   <addaction name="action_go_to_page"/>
+   <addaction name="action_add_bookmark"/>
+   <addaction name="action_remove_bookmark"/>
+   <addaction name="action_bookmark_manager"/>
+   <addaction name="separator"/>
+   <addaction name="action_rotate_left"/>
+   <addaction name="action_rotate_right"/>
+   <addaction name="separator"/>
+   <addaction name="action_page_fit"/>
+   <addaction name="action_original_fit"/>
+   <addaction name="action_vertical_fit"/>
+   <addaction name="action_horizontal_fit"/>
+   <addaction name="action_best_fit"/>
+   <addaction name="separator"/>
+   <addaction name="action_fullscreen"/>
+   <addaction name="separator"/>
+   <addaction name="action_double_page_mode"/>
+   <addaction name="separator"/>
+   <addaction name="action_exit"/>
+  </widget>
+  <widget class="StatusBar" name="statusbar"/>
+  <action name="action_about">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icons/icons/help-info.png</normaloff>:/icons/icons/help-info.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;About Pynocchio</string>
+   </property>
+  </action>
+  <action name="action_about_qt">
+   <property name="text">
+    <string>About &amp;Qt</string>
+   </property>
+  </action>
+  <action name="action_exit">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icons/icons/system-shutdown.png</normaloff>:/icons/icons/system-shutdown.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Exit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="action_next_page">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icons/icons/go-next.png</normaloff>:/icons/icons/go-next.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Next page</string>
+   </property>
+   <property name="shortcut">
+    <string>Right</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ShortcutContext::WindowShortcut</enum>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+   <property name="priority">
+    <enum>QAction::Priority::HighPriority</enum>
+   </property>
+  </action>
+  <action name="action_previous_page">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icons/icons/go-previous.png</normaloff>:/icons/icons/go-previous.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Previous page</string>
+   </property>
+   <property name="shortcut">
+    <string>Left</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ShortcutContext::WindowShortcut</enum>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="action_first_page">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icons/icons/go-first.png</normaloff>:/icons/icons/go-first.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;First page</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Left</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ShortcutContext::WindowShortcut</enum>
+   </property>
+  </action>
+  <action name="action_last_page">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icons/icons/go-last.png</normaloff>:/icons/icons/go-last.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Last page</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Right</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ShortcutContext::WindowShortcut</enum>
+   </property>
+  </action>
+  <action name="action_rotate_left">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icons/icons/object-rotate-left.png</normaloff>:/icons/icons/object-rotate-left.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Rotate left</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+R</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ShortcutContext::WidgetShortcut</enum>
+   </property>
+  </action>
+  <action name="action_rotate_right">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icons/icons/object-rotate-right.png</normaloff>:/icons/icons/object-rotate-right.png</iconset>
+   </property>
+   <property name="text">
+    <string>Rotat&amp;e right</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ShortcutContext::WidgetShortcut</enum>
+   </property>
+  </action>
+  <action name="action_horizontal_fit">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icons/icons/horizontal-fit.png</normaloff>:/icons/icons/horizontal-fit.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Horizontal fit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+K</string>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="action_fullscreen">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icons/icons/fullscreen.png</normaloff>:/icons/icons/fullscreen.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Fullscreen</string>
+   </property>
+   <property name="shortcut">
+    <string>F</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ShortcutContext::WidgetShortcut</enum>
+   </property>
+   <property name="iconVisibleInMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="action_go_to_page">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icons/icons/edit-find.png</normaloff>:/icons/icons/edit-find.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Go to page</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+G</string>
+   </property>
+  </action>
+  <action name="action_original_fit">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icons/icons/original-fit.png</normaloff>:/icons/icons/original-fit.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Original fit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+H</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ShortcutContext::ApplicationShortcut</enum>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="action_show_statusbar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>S&amp;how statusbar</string>
+   </property>
+  </action>
+  <action name="action_add_bookmark">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icons/icons/bookmark-new.png</normaloff>:/icons/icons/bookmark-new.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Add bookmark</string>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="action_remove_bookmark">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icons/icons/edit-delete.png</normaloff>:/icons/icons/edit-delete.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Remove bookmark</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+   <property name="iconVisibleInMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="action_bookmark_manager">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icons/icons/system-file-manager2.png</normaloff>:/icons/icons/system-file-manager2.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Bookmark manager</string>
+   </property>
+  </action>
+  <action name="action_open_folder">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icons/icons/document-open.png</normaloff>:/icons/icons/document-open.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open &amp;Folder</string>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::TextHeuristicRole</enum>
+   </property>
+   <property name="iconVisibleInMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="action_next_comic">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icons/icons/media-skip-forward.png</normaloff>:/icons/icons/media-skip-forward.png</iconset>
+   </property>
+   <property name="text">
+    <string>Next &amp;Comic</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+Right</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ShortcutContext::WindowShortcut</enum>
+   </property>
+  </action>
+  <action name="action_previous_comic">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icons/icons/media-skip-backward.png</normaloff>:/icons/icons/media-skip-backward.png</iconset>
+   </property>
+   <property name="text">
+    <string>P&amp;revious Comic</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+Left</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ShortcutContext::WindowShortcut</enum>
+   </property>
+  </action>
+  <action name="action_preference_dialog">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icons/elementary3-icon-theme/actions/48/document-properties.svg</normaloff>:/icons/elementary3-icon-theme/actions/48/document-properties.svg</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Preferences</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="action_vertical_fit">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icons/icons/vertical-fit.png</normaloff>:/icons/icons/vertical-fit.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Vertical fit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+J</string>
+   </property>
+   <property name="autoRepeat">
+    <bool>true</bool>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="action_best_fit">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icons/icons/best-fit.png</normaloff>:/icons/icons/best-fit.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Best fit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+L</string>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="action_page_fit">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icons/icons/page-fit.png</normaloff>:/icons/icons/page-fit.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Page fit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+P</string>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="action_save_image">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Save image</string>
+   </property>
+   <property name="whatsThis">
+    <string>Save current image in disk</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="action_open_file">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icons/icons/archive-extract.png</normaloff>:/icons/icons/archive-extract.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Open File</string>
+   </property>
+   <property name="font">
+    <font/>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionRecent_file_1">
+   <property name="text">
+    <string notr="true">&amp;recent_file_1</string>
+   </property>
+   <property name="iconText">
+    <string notr="true">recent_file_1</string>
+   </property>
+   <property name="toolTip">
+    <string notr="true">recent_file_1</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionRecent_file_2">
+   <property name="text">
+    <string notr="true">recent_&amp;file_2</string>
+   </property>
+   <property name="iconText">
+    <string notr="true">recent_file_2</string>
+   </property>
+   <property name="toolTip">
+    <string notr="true">recent_file_2</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionRecent_file_3">
+   <property name="text">
+    <string notr="true">recent_file_&amp;3</string>
+   </property>
+   <property name="iconText">
+    <string notr="true">recent_file_3</string>
+   </property>
+   <property name="toolTip">
+    <string notr="true">recent_file_3</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionRecent_file_4">
+   <property name="text">
+    <string notr="true">recent_file_&amp;4</string>
+   </property>
+   <property name="iconText">
+    <string notr="true">recent_file_4</string>
+   </property>
+   <property name="toolTip">
+    <string notr="true">recent_file_4</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionRecent_file_5">
+   <property name="text">
+    <string notr="true">recent_file_&amp;5</string>
+   </property>
+   <property name="iconText">
+    <string notr="true">recent_file_5</string>
+   </property>
+   <property name="toolTip">
+    <string notr="true">recent_file_5</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionRecent_file_6">
+   <property name="text">
+    <string notr="true">recent_file_&amp;6</string>
+   </property>
+   <property name="toolTip">
+    <string notr="true">recent_file_6</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionRecent_file_7">
+   <property name="text">
+    <string notr="true">recent_file_&amp;7</string>
+   </property>
+   <property name="iconText">
+    <string notr="true">recent_file_7</string>
+   </property>
+   <property name="toolTip">
+    <string notr="true">recent_file_7</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionRecent_file_8">
+   <property name="text">
+    <string notr="true">recent_file_&amp;8</string>
+   </property>
+   <property name="iconText">
+    <string notr="true">recent_file_8</string>
+   </property>
+   <property name="toolTip">
+    <string notr="true">recent_file_8</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionRecent_file_9">
+   <property name="text">
+    <string notr="true">recent_file_&amp;9</string>
+   </property>
+   <property name="iconText">
+    <string notr="true">recent_file_9</string>
+   </property>
+   <property name="toolTip">
+    <string notr="true">recent_file_9</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionRecent_file_10">
+   <property name="text">
+    <string notr="true">recent_file_&amp;10</string>
+   </property>
+   <property name="iconText">
+    <string notr="true">recent_file_10</string>
+   </property>
+   <property name="toolTip">
+    <string notr="true">recent_file_10</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionRecent_bookmark_1">
+   <property name="text">
+    <string notr="true">&amp;recent_bookmark_1</string>
+   </property>
+   <property name="iconText">
+    <string notr="true">recent_bookmark_1</string>
+   </property>
+   <property name="toolTip">
+    <string notr="true">recent_bookmark_1</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionRecent_bookmark_2">
+   <property name="text">
+    <string notr="true">recent_&amp;bookmark_2</string>
+   </property>
+   <property name="iconText">
+    <string notr="true">recent_bookmark_2</string>
+   </property>
+   <property name="toolTip">
+    <string notr="true">recent_bookmark_2</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionRecent_bookmark_3">
+   <property name="text">
+    <string notr="true">recent_bookmark_&amp;3</string>
+   </property>
+   <property name="iconText">
+    <string notr="true">recent_bookmark_3</string>
+   </property>
+   <property name="toolTip">
+    <string notr="true">recent_bookmark_3</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionRecent_bookmark_4">
+   <property name="text">
+    <string notr="true">recent_bookmark_&amp;4</string>
+   </property>
+   <property name="toolTip">
+    <string notr="true">recent_bookmark_4</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="actionRecent_bookmark_5">
+   <property name="text">
+    <string notr="true">recent_bookmark_&amp;5</string>
+   </property>
+   <property name="iconText">
+    <string notr="true">recent_bookmark_5</string>
+   </property>
+   <property name="toolTip">
+    <string notr="true">recent_bookmark_5</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
+   </property>
+  </action>
+  <action name="action_show_toolbar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Show toolbar</string>
+   </property>
+  </action>
+  <action name="action_double_page_mode">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icons/icons/distribute-horizontal-margin.png</normaloff>:/icons/icons/distribute-horizontal-margin.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Double Page Mode</string>
+   </property>
+   <property name="toolTip">
+    <string>Enable double page mode</string>
+   </property>
+   <property name="iconVisibleInMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="action_manga_mode">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Manga Mode</string>
+   </property>
+  </action>
+  <action name="action_page_across_files">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Page across files</string>
+   </property>
+  </action>
+  <action name="action_show_thumbnails">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Show &amp;thumbnails</string>
+   </property>
+  </action>
+  <action name="action_dark_style">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Force &amp;dark style</string>
+   </property>
+  </action>
+  <action name="action_shrink_only">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Shrink &amp;only</string>
+   </property>
+  </action>
+  <addaction name="action_next_page"/>
+  <addaction name="action_previous_page"/>
+  <addaction name="action_first_page"/>
+  <addaction name="action_last_page"/>
+  <addaction name="action_next_comic"/>
+  <addaction name="action_previous_comic"/>
+  <addaction name="action_go_to_page"/>
+  <addaction name="action_page_fit"/>
+  <addaction name="action_original_fit"/>
+  <addaction name="action_vertical_fit"/>
+  <addaction name="action_horizontal_fit"/>
+  <addaction name="action_best_fit"/>
+  <addaction name="action_rotate_left"/>
+  <addaction name="action_rotate_right"/>
+  <addaction name="action_fullscreen"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>StatusBar</class>
+   <extends>QStatusBar</extends>
+   <header location="global">.custom_widgets/status_bar.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="../212597d4/main_window_view.qrc"/>
+ </resources>
+ <connections/>
+ <designerdata>
+  <property name="gridDeltaX">
+   <number>10</number>
+  </property>
+  <property name="gridDeltaY">
+   <number>10</number>
+  </property>
+  <property name="gridSnapX">
+   <bool>true</bool>
+  </property>
+  <property name="gridSnapY">
+   <bool>true</bool>
+  </property>
+  <property name="gridVisible">
+   <bool>true</bool>
+  </property>
+ </designerdata>
+</ui>
